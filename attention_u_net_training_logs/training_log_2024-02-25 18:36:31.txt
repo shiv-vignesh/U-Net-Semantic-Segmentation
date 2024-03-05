@@ -1,0 +1,1090 @@
+02/25/2024 06:36:31 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:36:31 PM Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+02/25/2024 06:36:31 PM encoder_module.convblock_0.convblock.0.weight                          torch.Size([32, 3, 3, 3])      864                            1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_0.convblock.0.bias                            torch.Size([32])               32                             1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_0.convblock.1.weight                          torch.Size([32, 32, 3, 3])     9216                           1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_0.convblock.1.bias                            torch.Size([32])               32                             1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_0.convblock.2.weight                          torch.Size([32])               32                             1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_0.convblock.2.bias                            torch.Size([32])               32                             1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_1.convblock.0.weight                          torch.Size([64, 32, 3, 3])     18432                          1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_1.convblock.0.bias                            torch.Size([64])               64                             1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_1.convblock.1.weight                          torch.Size([64, 64, 3, 3])     36864                          1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_1.convblock.1.bias                            torch.Size([64])               64                             1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_1.convblock.2.weight                          torch.Size([64])               64                             1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_1.convblock.2.bias                            torch.Size([64])               64                             1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_2.convblock.0.weight                          torch.Size([128, 64, 3, 3])    73728                          1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_2.convblock.0.bias                            torch.Size([128])              128                            1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_2.convblock.1.weight                          torch.Size([128, 128, 3, 3])   147456                         1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_2.convblock.1.bias                            torch.Size([128])              128                            1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_2.convblock.2.weight                          torch.Size([128])              128                            1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_2.convblock.2.bias                            torch.Size([128])              128                            1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_3.convblock.0.weight                          torch.Size([256, 128, 3, 3])   294912                         1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_3.convblock.0.bias                            torch.Size([256])              256                            1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_3.convblock.1.weight                          torch.Size([256, 256, 3, 3])   589824                         1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_3.convblock.1.bias                            torch.Size([256])              256                            1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_3.convblock.2.weight                          torch.Size([256])              256                            1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_3.convblock.2.bias                            torch.Size([256])              256                            1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_4.convblock.0.weight                          torch.Size([512, 256, 3, 3])   1179648                        1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_4.convblock.0.bias                            torch.Size([512])              512                            1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_4.convblock.1.weight                          torch.Size([512, 512, 3, 3])   2359296                        1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_4.convblock.1.bias                            torch.Size([512])              512                            1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_4.convblock.2.weight                          torch.Size([512])              512                            1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_4.convblock.2.bias                            torch.Size([512])              512                            1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_5.convblock.0.weight                          torch.Size([1024, 512, 3, 3])  4718592                        1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_5.convblock.0.bias                            torch.Size([1024])             1024                           1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_5.convblock.1.weight                          torch.Size([1024, 1024, 3, 3]) 9437184                        1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_5.convblock.1.bias                            torch.Size([1024])             1024                           1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_5.convblock.2.weight                          torch.Size([1024])             1024                           1                             
+02/25/2024 06:36:31 PM encoder_module.convblock_5.convblock.2.bias                            torch.Size([1024])             1024                           1                             
+02/25/2024 06:36:31 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:36:31 PM Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+02/25/2024 06:36:31 PM decoder_module.deconvblock_0.transpose_layer.weight                    torch.Size([1024, 512, 2, 2])  2097152                        1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_0.transpose_layer.bias                      torch.Size([512])              512                            1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_0.convblock.convblock.0.weight              torch.Size([512, 1024, 3, 3])  4718592                        1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_0.convblock.convblock.0.bias                torch.Size([512])              512                            1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_0.convblock.convblock.1.weight              torch.Size([512, 512, 3, 3])   2359296                        1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_0.convblock.convblock.1.bias                torch.Size([512])              512                            1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_0.convblock.convblock.2.weight              torch.Size([512])              512                            1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_0.convblock.convblock.2.bias                torch.Size([512])              512                            1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_1.transpose_layer.weight                    torch.Size([512, 256, 2, 2])   524288                         1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_1.transpose_layer.bias                      torch.Size([256])              256                            1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_1.convblock.convblock.0.weight              torch.Size([256, 512, 3, 3])   1179648                        1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_1.convblock.convblock.0.bias                torch.Size([256])              256                            1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_1.convblock.convblock.1.weight              torch.Size([256, 256, 3, 3])   589824                         1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_1.convblock.convblock.1.bias                torch.Size([256])              256                            1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_1.convblock.convblock.2.weight              torch.Size([256])              256                            1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_1.convblock.convblock.2.bias                torch.Size([256])              256                            1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_2.transpose_layer.weight                    torch.Size([256, 128, 2, 2])   131072                         1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_2.transpose_layer.bias                      torch.Size([128])              128                            1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_2.convblock.convblock.0.weight              torch.Size([128, 256, 3, 3])   294912                         1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_2.convblock.convblock.0.bias                torch.Size([128])              128                            1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_2.convblock.convblock.1.weight              torch.Size([128, 128, 3, 3])   147456                         1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_2.convblock.convblock.1.bias                torch.Size([128])              128                            1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_2.convblock.convblock.2.weight              torch.Size([128])              128                            1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_2.convblock.convblock.2.bias                torch.Size([128])              128                            1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_3.transpose_layer.weight                    torch.Size([128, 64, 2, 2])    32768                          1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_3.transpose_layer.bias                      torch.Size([64])               64                             1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_3.convblock.convblock.0.weight              torch.Size([64, 128, 3, 3])    73728                          1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_3.convblock.convblock.0.bias                torch.Size([64])               64                             1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_3.convblock.convblock.1.weight              torch.Size([64, 64, 3, 3])     36864                          1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_3.convblock.convblock.1.bias                torch.Size([64])               64                             1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_3.convblock.convblock.2.weight              torch.Size([64])               64                             1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_3.convblock.convblock.2.bias                torch.Size([64])               64                             1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_4.transpose_layer.weight                    torch.Size([64, 32, 2, 2])     8192                           1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_4.transpose_layer.bias                      torch.Size([32])               32                             1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_4.convblock.convblock.0.weight              torch.Size([32, 64, 3, 3])     18432                          1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_4.convblock.convblock.0.bias                torch.Size([32])               32                             1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_4.convblock.convblock.1.weight              torch.Size([32, 32, 3, 3])     9216                           1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_4.convblock.convblock.1.bias                torch.Size([32])               32                             1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_4.convblock.convblock.2.weight              torch.Size([32])               32                             1                             
+02/25/2024 06:36:31 PM decoder_module.deconvblock_4.convblock.convblock.2.bias                torch.Size([32])               32                             1                             
+02/25/2024 06:36:31 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:36:31 PM Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_0.g_conv_layer.weight                  torch.Size([512, 1024, 1, 1])  524288                         1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_0.g_conv_layer.bias                    torch.Size([512])              512                            1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_0.x_conv_layer.weight                  torch.Size([512, 512, 3, 3])   2359296                        1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_0.x_conv_layer.bias                    torch.Size([512])              512                            1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_0.attention_layer.weight               torch.Size([1, 512, 1, 1])     512                            1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_0.attention_layer.bias                 torch.Size([1])                1                              1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_1.g_conv_layer.weight                  torch.Size([256, 512, 1, 1])   131072                         1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_1.g_conv_layer.bias                    torch.Size([256])              256                            1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_1.x_conv_layer.weight                  torch.Size([256, 256, 3, 3])   589824                         1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_1.x_conv_layer.bias                    torch.Size([256])              256                            1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_1.attention_layer.weight               torch.Size([1, 256, 1, 1])     256                            1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_1.attention_layer.bias                 torch.Size([1])                1                              1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_2.g_conv_layer.weight                  torch.Size([128, 256, 1, 1])   32768                          1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_2.g_conv_layer.bias                    torch.Size([128])              128                            1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_2.x_conv_layer.weight                  torch.Size([128, 128, 3, 3])   147456                         1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_2.x_conv_layer.bias                    torch.Size([128])              128                            1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_2.attention_layer.weight               torch.Size([1, 128, 1, 1])     128                            1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_2.attention_layer.bias                 torch.Size([1])                1                              1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_3.g_conv_layer.weight                  torch.Size([64, 128, 1, 1])    8192                           1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_3.g_conv_layer.bias                    torch.Size([64])               64                             1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_3.x_conv_layer.weight                  torch.Size([64, 64, 3, 3])     36864                          1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_3.x_conv_layer.bias                    torch.Size([64])               64                             1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_3.attention_layer.weight               torch.Size([1, 64, 1, 1])      64                             1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_3.attention_layer.bias                 torch.Size([1])                1                              1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_4.g_conv_layer.weight                  torch.Size([32, 64, 1, 1])     2048                           1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_4.g_conv_layer.bias                    torch.Size([32])               32                             1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_4.x_conv_layer.weight                  torch.Size([32, 32, 3, 3])     9216                           1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_4.x_conv_layer.bias                    torch.Size([32])               32                             1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_4.attention_layer.weight               torch.Size([1, 32, 1, 1])      32                             1                             
+02/25/2024 06:36:31 PM attention_gate_module.attn_gate_4.attention_layer.bias                 torch.Size([1])                1                              1                             
+02/25/2024 06:36:31 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:36:31 PM Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+02/25/2024 06:36:31 PM pre_classification_layer.weight                                        torch.Size([32, 32, 1, 1])     1024                           1                             
+02/25/2024 06:36:31 PM pre_classification_layer.bias                                          torch.Size([32])               32                             1                             
+02/25/2024 06:36:31 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:36:31 PM Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+02/25/2024 06:36:31 PM final_classification_layer.weight                                      torch.Size([8, 32, 1, 1])      256                            1                             
+02/25/2024 06:36:31 PM final_classification_layer.bias                                        torch.Size([8])                8                              1                             
+02/25/2024 06:36:31 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:36:31 PM Train Dataloader:
+02/25/2024 06:36:31 PM 
+02/25/2024 06:36:31 PM Train Annotations Directory: ../gtFine/train
+02/25/2024 06:36:31 PM 
+02/25/2024 06:36:31 PM Train Original Images Directory: ../leftImg8bit/train
+02/25/2024 06:36:31 PM 
+02/25/2024 06:36:31 PM Training Batch Size: 2
+02/25/2024 06:36:31 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:36:31 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:36:31 PM Val Dataloader:
+02/25/2024 06:36:31 PM 
+02/25/2024 06:36:31 PM Val Annotations Directory: ../gtFine/val
+02/25/2024 06:36:31 PM 
+02/25/2024 06:36:31 PM Val Original Images Directory: ../leftImg8bit/val
+02/25/2024 06:36:31 PM 
+02/25/2024 06:36:31 PM Validation Batch Size: 8
+02/25/2024 06:36:31 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:36:31 PM Test Dataloader:
+02/25/2024 06:36:31 PM 
+02/25/2024 06:36:31 PM Test Annotations Directory: ../gtFine/test
+02/25/2024 06:36:31 PM 
+02/25/2024 06:36:31 PM Test Original Images Directory: ../leftImg8bit/test
+02/25/2024 06:36:31 PM 
+02/25/2024 06:36:31 PM Testing Batch Size: 16
+02/25/2024 06:36:31 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:36:31 PM Optimizer: AdamW
+02/25/2024 06:36:31 PM 
+02/25/2024 06:36:31 PM model_name: UNet Decoder
+02/25/2024 06:36:31 PM lr                             0.001
+02/25/2024 06:36:31 PM betas                          (0.9, 0.999)
+02/25/2024 06:36:31 PM eps                            1e-08
+02/25/2024 06:36:31 PM weight_decay                   0.1
+02/25/2024 06:36:31 PM amsgrad                        True
+02/25/2024 06:36:31 PM foreach                        None
+02/25/2024 06:36:31 PM maximize                       False
+02/25/2024 06:36:31 PM capturable                     False
+02/25/2024 06:36:31 PM differentiable                 False
+02/25/2024 06:36:31 PM fused                          None
+02/25/2024 06:36:31 PM 
+02/25/2024 06:36:31 PM model_name: UNet Decoder
+02/25/2024 06:36:31 PM lr                             0.001
+02/25/2024 06:36:31 PM betas                          (0.9, 0.999)
+02/25/2024 06:36:31 PM eps                            1e-08
+02/25/2024 06:36:31 PM weight_decay                   0.1
+02/25/2024 06:36:31 PM amsgrad                        True
+02/25/2024 06:36:31 PM foreach                        None
+02/25/2024 06:36:31 PM maximize                       False
+02/25/2024 06:36:31 PM capturable                     False
+02/25/2024 06:36:31 PM differentiable                 False
+02/25/2024 06:36:31 PM fused                          None
+02/25/2024 06:36:31 PM 
+02/25/2024 06:36:31 PM model_name: UNet Classifier
+02/25/2024 06:36:31 PM lr                             0.01
+02/25/2024 06:36:31 PM betas                          (0.9, 0.999)
+02/25/2024 06:36:31 PM eps                            1e-08
+02/25/2024 06:36:31 PM weight_decay                   0.1
+02/25/2024 06:36:31 PM amsgrad                        True
+02/25/2024 06:36:31 PM foreach                        None
+02/25/2024 06:36:31 PM maximize                       False
+02/25/2024 06:36:31 PM capturable                     False
+02/25/2024 06:36:31 PM differentiable                 False
+02/25/2024 06:36:31 PM fused                          None
+02/25/2024 06:36:31 PM 
+02/25/2024 06:36:31 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:36:31 PM Device: cuda and Device Count: 1
+02/25/2024 06:36:31 PM 
+02/25/2024 06:36:31 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:36:31 PM Start Training: Max Epoch 60
+02/25/2024 06:36:31 PM 
+02/25/2024 06:36:31 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:37:41 PM Epoch 0 - iter 147/1488 - total loss 1.0308 - total mean iou 0.2507 - total pixel acc 0.6018 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3436 Seconds
+02/25/2024 06:38:50 PM Epoch 0 - iter 295/1488 - total loss 0.8017 - total mean iou 0.3236 - total pixel acc 0.6854 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3384 Seconds
+02/25/2024 06:39:59 PM Epoch 0 - iter 443/1488 - total loss 0.7634 - total mean iou 0.3436 - total pixel acc 0.6986 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3426 Seconds
+02/25/2024 06:41:09 PM Epoch 0 - iter 591/1488 - total loss 0.7173 - total mean iou 0.3542 - total pixel acc 0.7150 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3465 Seconds
+02/25/2024 06:42:19 PM Epoch 0 - iter 739/1488 - total loss 0.6975 - total mean iou 0.3597 - total pixel acc 0.7222 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3476 Seconds
+02/25/2024 06:43:30 PM Epoch 0 - iter 887/1488 - total loss 0.6666 - total mean iou 0.3703 - total pixel acc 0.7309 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3489 Seconds
+02/25/2024 06:44:40 PM Epoch 0 - iter 1035/1488 - total loss 0.6181 - total mean iou 0.3827 - total pixel acc 0.7537 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3489 Seconds
+02/25/2024 06:45:50 PM Epoch 0 - iter 1183/1488 - total loss 0.6167 - total mean iou 0.3796 - total pixel acc 0.7448 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3494 Seconds
+02/25/2024 06:47:00 PM Epoch 0 - iter 1331/1488 - total loss 0.5797 - total mean iou 0.3980 - total pixel acc 0.7689 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3493 Seconds
+02/25/2024 06:48:10 PM Epoch 0 - iter 1479/1488 - total loss 0.6048 - total mean iou 0.3918 - total pixel acc 0.7549 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3496 Seconds
+02/25/2024 06:48:14 PM Epoch #0: Average Loss 0.7094497558690848 - Epoch Training Time: 8.0 minute/s and 35.3913 seconds - Total Training Time: 8.0 minute/s and 35.3913 seconds
+02/25/2024 06:51:01 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:51:01 PM Epoch #0: Average Validation Loss: 0.5955 - Average Validation Pixel Acc: 0.7528 - Average Validation Mean IOU: 0.4030
+02/25/2024 06:51:01 PM 
+02/25/2024 06:51:01 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:52:11 PM Epoch 1 - iter 147/1488 - total loss 0.5815 - total mean iou 0.3999 - total pixel acc 0.7678 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3443 Seconds
+02/25/2024 06:53:22 PM Epoch 1 - iter 295/1488 - total loss 0.5771 - total mean iou 0.4060 - total pixel acc 0.7710 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3498 Seconds
+02/25/2024 06:54:32 PM Epoch 1 - iter 443/1488 - total loss 0.5842 - total mean iou 0.4064 - total pixel acc 0.7666 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3504 Seconds
+02/25/2024 06:55:43 PM Epoch 1 - iter 591/1488 - total loss 0.5782 - total mean iou 0.4065 - total pixel acc 0.7706 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3506 Seconds
+02/25/2024 06:56:54 PM Epoch 1 - iter 739/1488 - total loss 0.5633 - total mean iou 0.4109 - total pixel acc 0.7736 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3507 Seconds
+02/25/2024 06:58:04 PM Epoch 1 - iter 887/1488 - total loss 0.5556 - total mean iou 0.4124 - total pixel acc 0.7775 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3506 Seconds
+02/25/2024 06:59:15 PM Epoch 1 - iter 1035/1488 - total loss 0.5381 - total mean iou 0.4155 - total pixel acc 0.7861 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3506 Seconds
+02/25/2024 07:00:25 PM Epoch 1 - iter 1183/1488 - total loss 0.5313 - total mean iou 0.4156 - total pixel acc 0.7791 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3505 Seconds
+02/25/2024 07:01:36 PM Epoch 1 - iter 1331/1488 - total loss 0.4985 - total mean iou 0.4360 - total pixel acc 0.8019 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3505 Seconds
+02/25/2024 07:02:47 PM Epoch 1 - iter 1479/1488 - total loss 0.5180 - total mean iou 0.4239 - total pixel acc 0.7891 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3505 Seconds
+02/25/2024 07:02:50 PM Epoch #1: Average Loss 0.5527078341792828 - Epoch Training Time: 8.0 minute/s and 40.39250000000004 seconds - Total Training Time: 8.0 minute/s and 40.39250000000004 seconds
+02/25/2024 07:05:38 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 07:05:38 PM Epoch #1: Average Validation Loss: 0.5377 - Average Validation Pixel Acc: 0.7729 - Average Validation Mean IOU: 0.4406
+02/25/2024 07:05:38 PM 
+02/25/2024 07:05:38 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 07:06:48 PM Epoch 2 - iter 147/1488 - total loss 0.5079 - total mean iou 0.4306 - total pixel acc 0.7977 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3456 Seconds
+02/25/2024 07:07:59 PM Epoch 2 - iter 295/1488 - total loss 0.5003 - total mean iou 0.4371 - total pixel acc 0.8012 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3499 Seconds
+02/25/2024 07:09:10 PM Epoch 2 - iter 443/1488 - total loss 0.4997 - total mean iou 0.4391 - total pixel acc 0.7967 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3503 Seconds
+02/25/2024 07:10:21 PM Epoch 2 - iter 591/1488 - total loss 0.5002 - total mean iou 0.4382 - total pixel acc 0.7992 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3505 Seconds
+02/25/2024 07:11:31 PM Epoch 2 - iter 739/1488 - total loss 0.4854 - total mean iou 0.4445 - total pixel acc 0.8002 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3505 Seconds
+02/25/2024 07:12:42 PM Epoch 2 - iter 887/1488 - total loss 0.4782 - total mean iou 0.4426 - total pixel acc 0.8046 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3506 Seconds
+02/25/2024 07:13:53 PM Epoch 2 - iter 1035/1488 - total loss 0.4750 - total mean iou 0.4448 - total pixel acc 0.8092 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3505 Seconds
+02/25/2024 07:15:04 PM Epoch 2 - iter 1183/1488 - total loss 0.4724 - total mean iou 0.4428 - total pixel acc 0.7997 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3502 Seconds
+02/25/2024 07:16:14 PM Epoch 2 - iter 1331/1488 - total loss 0.4438 - total mean iou 0.4680 - total pixel acc 0.8213 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3503 Seconds
+02/25/2024 07:17:25 PM Epoch 2 - iter 1479/1488 - total loss 0.4626 - total mean iou 0.4512 - total pixel acc 0.8084 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3504 Seconds
+02/25/2024 07:17:29 PM Epoch #2: Average Loss 0.4829567520208256 - Epoch Training Time: 8.0 minute/s and 40.46630000000005 seconds - Total Training Time: 8.0 minute/s and 40.46630000000005 seconds
+02/25/2024 07:20:17 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 07:20:17 PM Epoch #2: Average Validation Loss: 0.5027 - Average Validation Pixel Acc: 0.7852 - Average Validation Mean IOU: 0.4612
+02/25/2024 07:20:17 PM 
+02/25/2024 07:20:17 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 07:21:27 PM Epoch 3 - iter 147/1488 - total loss 0.4583 - total mean iou 0.4534 - total pixel acc 0.8140 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3467 Seconds
+02/25/2024 07:22:37 PM Epoch 3 - iter 295/1488 - total loss 0.4524 - total mean iou 0.4627 - total pixel acc 0.8171 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3504 Seconds
+02/25/2024 07:23:47 PM Epoch 3 - iter 443/1488 - total loss 0.4604 - total mean iou 0.4591 - total pixel acc 0.8103 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3506 Seconds
+02/25/2024 07:24:57 PM Epoch 3 - iter 591/1488 - total loss 0.4523 - total mean iou 0.4614 - total pixel acc 0.8144 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3507 Seconds
+02/25/2024 07:26:07 PM Epoch 3 - iter 739/1488 - total loss 0.4480 - total mean iou 0.4639 - total pixel acc 0.8121 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3507 Seconds
+02/25/2024 07:27:17 PM Epoch 3 - iter 887/1488 - total loss 0.4427 - total mean iou 0.4630 - total pixel acc 0.8166 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3506 Seconds
+02/25/2024 07:28:27 PM Epoch 3 - iter 1035/1488 - total loss 0.4391 - total mean iou 0.4618 - total pixel acc 0.8203 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3504 Seconds
+02/25/2024 07:29:37 PM Epoch 3 - iter 1183/1488 - total loss 0.4396 - total mean iou 0.4598 - total pixel acc 0.8108 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3505 Seconds
+02/25/2024 07:30:47 PM Epoch 3 - iter 1331/1488 - total loss 0.4177 - total mean iou 0.4841 - total pixel acc 0.8308 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3504 Seconds
+02/25/2024 07:31:57 PM Epoch 3 - iter 1479/1488 - total loss 0.4269 - total mean iou 0.4714 - total pixel acc 0.8212 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3505 Seconds
+02/25/2024 07:32:00 PM Epoch #3: Average Loss 0.4441409770259133 - Epoch Training Time: 8.0 minute/s and 40.86149999999998 seconds - Total Training Time: 8.0 minute/s and 40.86149999999998 seconds
+02/25/2024 07:34:48 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 07:34:48 PM Epoch #3: Average Validation Loss: 0.5201 - Average Validation Pixel Acc: 0.7724 - Average Validation Mean IOU: 0.4591
+02/25/2024 07:34:48 PM 
+02/25/2024 07:34:48 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 07:35:58 PM Epoch 4 - iter 147/1488 - total loss 0.4313 - total mean iou 0.4686 - total pixel acc 0.8219 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3467 Seconds
+02/25/2024 07:37:08 PM Epoch 4 - iter 295/1488 - total loss 0.4251 - total mean iou 0.4772 - total pixel acc 0.8266 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3503 Seconds
+02/25/2024 07:38:18 PM Epoch 4 - iter 443/1488 - total loss 0.4307 - total mean iou 0.4784 - total pixel acc 0.8208 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3508 Seconds
+02/25/2024 07:39:28 PM Epoch 4 - iter 591/1488 - total loss 0.4267 - total mean iou 0.4747 - total pixel acc 0.8232 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3506 Seconds
+02/25/2024 07:40:38 PM Epoch 4 - iter 739/1488 - total loss 0.4152 - total mean iou 0.4814 - total pixel acc 0.8225 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3507 Seconds
+02/25/2024 07:41:48 PM Epoch 4 - iter 887/1488 - total loss 0.4187 - total mean iou 0.4777 - total pixel acc 0.8250 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3507 Seconds
+02/25/2024 07:42:58 PM Epoch 4 - iter 1035/1488 - total loss 0.4071 - total mean iou 0.4805 - total pixel acc 0.8302 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3506 Seconds
+02/25/2024 07:44:08 PM Epoch 4 - iter 1183/1488 - total loss 0.4071 - total mean iou 0.4784 - total pixel acc 0.8226 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3507 Seconds
+02/25/2024 07:45:18 PM Epoch 4 - iter 1331/1488 - total loss 0.3895 - total mean iou 0.4997 - total pixel acc 0.8394 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3507 Seconds
+02/25/2024 07:46:28 PM Epoch 4 - iter 1479/1488 - total loss 0.3941 - total mean iou 0.4876 - total pixel acc 0.8317 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3506 Seconds
+02/25/2024 07:46:32 PM Epoch #4: Average Loss 0.4149675470105903 - Epoch Training Time: 8.0 minute/s and 41.01469999999995 seconds - Total Training Time: 8.0 minute/s and 41.01469999999995 seconds
+02/25/2024 07:49:21 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 07:49:21 PM Epoch #4: Average Validation Loss: 0.3867 - Average Validation Pixel Acc: 0.8249 - Average Validation Mean IOU: 0.5140
+02/25/2024 07:49:21 PM 
+02/25/2024 07:49:21 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 07:50:30 PM Epoch 5 - iter 147/1488 - total loss 0.4004 - total mean iou 0.4885 - total pixel acc 0.8321 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3466 Seconds
+02/25/2024 07:51:40 PM Epoch 5 - iter 295/1488 - total loss 0.3989 - total mean iou 0.4896 - total pixel acc 0.8346 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3503 Seconds
+02/25/2024 07:52:50 PM Epoch 5 - iter 443/1488 - total loss 0.4006 - total mean iou 0.4976 - total pixel acc 0.8310 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3507 Seconds
+02/25/2024 07:54:00 PM Epoch 5 - iter 591/1488 - total loss 0.3975 - total mean iou 0.4893 - total pixel acc 0.8331 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3507 Seconds
+02/25/2024 07:55:10 PM Epoch 5 - iter 739/1488 - total loss 0.3882 - total mean iou 0.4964 - total pixel acc 0.8314 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3507 Seconds
+02/25/2024 07:56:20 PM Epoch 5 - iter 887/1488 - total loss 0.3893 - total mean iou 0.4924 - total pixel acc 0.8356 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3505 Seconds
+02/25/2024 07:57:30 PM Epoch 5 - iter 1035/1488 - total loss 0.3962 - total mean iou 0.4900 - total pixel acc 0.8351 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3506 Seconds
+02/25/2024 07:58:40 PM Epoch 5 - iter 1183/1488 - total loss 0.3890 - total mean iou 0.4917 - total pixel acc 0.8281 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3506 Seconds
+02/25/2024 07:59:50 PM Epoch 5 - iter 1331/1488 - total loss 0.3687 - total mean iou 0.5124 - total pixel acc 0.8467 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3506 Seconds
+02/25/2024 08:01:00 PM Epoch 5 - iter 1479/1488 - total loss 0.3688 - total mean iou 0.5028 - total pixel acc 0.8414 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3505 Seconds
+02/25/2024 08:01:03 PM Epoch #5: Average Loss 0.390113289177578 - Epoch Training Time: 8.0 minute/s and 40.90700000000004 seconds - Total Training Time: 8.0 minute/s and 40.90700000000004 seconds
+02/25/2024 08:03:50 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 08:03:50 PM Epoch #5: Average Validation Loss: 0.3866 - Average Validation Pixel Acc: 0.8251 - Average Validation Mean IOU: 0.5160
+02/25/2024 08:03:50 PM 
+02/25/2024 08:03:50 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 08:04:59 PM Epoch 6 - iter 147/1488 - total loss 0.3757 - total mean iou 0.5037 - total pixel acc 0.8406 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3463 Seconds
+02/25/2024 08:06:09 PM Epoch 6 - iter 295/1488 - total loss 0.3788 - total mean iou 0.4995 - total pixel acc 0.8412 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3505 Seconds
+02/25/2024 08:07:19 PM Epoch 6 - iter 443/1488 - total loss 0.3806 - total mean iou 0.5090 - total pixel acc 0.8382 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3506 Seconds
+02/25/2024 08:08:29 PM Epoch 6 - iter 591/1488 - total loss 0.3810 - total mean iou 0.4988 - total pixel acc 0.8384 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3508 Seconds
+02/25/2024 08:09:39 PM Epoch 6 - iter 739/1488 - total loss 0.3707 - total mean iou 0.5067 - total pixel acc 0.8373 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3507 Seconds
+02/25/2024 08:10:49 PM Epoch 6 - iter 887/1488 - total loss 0.3678 - total mean iou 0.5041 - total pixel acc 0.8428 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3507 Seconds
+02/25/2024 08:11:59 PM Epoch 6 - iter 1035/1488 - total loss 0.3691 - total mean iou 0.5054 - total pixel acc 0.8434 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3506 Seconds
+02/25/2024 08:13:09 PM Epoch 6 - iter 1183/1488 - total loss 0.3673 - total mean iou 0.5049 - total pixel acc 0.8360 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3506 Seconds
+02/25/2024 08:14:19 PM Epoch 6 - iter 1331/1488 - total loss 0.3534 - total mean iou 0.5201 - total pixel acc 0.8511 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3506 Seconds
+02/25/2024 08:15:29 PM Epoch 6 - iter 1479/1488 - total loss 0.3555 - total mean iou 0.5097 - total pixel acc 0.8453 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3507 Seconds
+02/25/2024 08:15:32 PM Epoch #6: Average Loss 0.37028884441061044 - Epoch Training Time: 8.0 minute/s and 40.972099999999955 seconds - Total Training Time: 8.0 minute/s and 40.972099999999955 seconds
+02/25/2024 08:18:19 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 08:18:19 PM Epoch #6: Average Validation Loss: 0.4047 - Average Validation Pixel Acc: 0.8203 - Average Validation Mean IOU: 0.5108
+02/25/2024 08:18:19 PM 
+02/25/2024 08:18:19 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 08:19:29 PM Epoch 7 - iter 147/1488 - total loss 0.3586 - total mean iou 0.5131 - total pixel acc 0.8463 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3468 Seconds
+02/25/2024 08:20:39 PM Epoch 7 - iter 295/1488 - total loss 0.3578 - total mean iou 0.5116 - total pixel acc 0.8474 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3503 Seconds
+02/25/2024 08:21:49 PM Epoch 7 - iter 443/1488 - total loss 0.3585 - total mean iou 0.5205 - total pixel acc 0.8451 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3506 Seconds
+02/25/2024 08:22:59 PM Epoch 7 - iter 591/1488 - total loss 0.3661 - total mean iou 0.5085 - total pixel acc 0.8433 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.351 Seconds
+02/25/2024 08:24:10 PM Epoch 7 - iter 739/1488 - total loss 0.3530 - total mean iou 0.5168 - total pixel acc 0.8428 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3511 Seconds
+02/25/2024 08:25:20 PM Epoch 7 - iter 887/1488 - total loss 0.3443 - total mean iou 0.5171 - total pixel acc 0.8496 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3508 Seconds
+02/25/2024 08:26:30 PM Epoch 7 - iter 1035/1488 - total loss 0.3458 - total mean iou 0.5182 - total pixel acc 0.8507 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3505 Seconds
+02/25/2024 08:27:40 PM Epoch 7 - iter 1183/1488 - total loss 0.3504 - total mean iou 0.5143 - total pixel acc 0.8412 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3504 Seconds
+02/25/2024 08:28:51 PM Epoch 7 - iter 1331/1488 - total loss 0.3273 - total mean iou 0.5375 - total pixel acc 0.8601 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3505 Seconds
+02/25/2024 08:30:01 PM Epoch 7 - iter 1479/1488 - total loss 0.3354 - total mean iou 0.5220 - total pixel acc 0.8525 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3504 Seconds
+02/25/2024 08:30:04 PM Epoch #7: Average Loss 0.3501013401615363 - Epoch Training Time: 8.0 minute/s and 40.980500000000006 seconds - Total Training Time: 8.0 minute/s and 40.980500000000006 seconds
+02/25/2024 08:32:53 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 08:32:53 PM Epoch #7: Average Validation Loss: 0.4762 - Average Validation Pixel Acc: 0.7928 - Average Validation Mean IOU: 0.4874
+02/25/2024 08:32:53 PM 
+02/25/2024 08:32:53 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 08:34:03 PM Epoch 8 - iter 147/1488 - total loss 0.3374 - total mean iou 0.5277 - total pixel acc 0.8532 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3463 Seconds
+02/25/2024 08:35:13 PM Epoch 8 - iter 295/1488 - total loss 0.3435 - total mean iou 0.5198 - total pixel acc 0.8515 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3504 Seconds
+02/25/2024 08:36:23 PM Epoch 8 - iter 443/1488 - total loss 0.3424 - total mean iou 0.5285 - total pixel acc 0.8498 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3507 Seconds
+02/25/2024 08:37:33 PM Epoch 8 - iter 591/1488 - total loss 0.3459 - total mean iou 0.5188 - total pixel acc 0.8496 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3506 Seconds
+02/25/2024 08:38:43 PM Epoch 8 - iter 739/1488 - total loss 0.3384 - total mean iou 0.5247 - total pixel acc 0.8465 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3505 Seconds
+02/25/2024 08:39:53 PM Epoch 8 - iter 887/1488 - total loss 0.3347 - total mean iou 0.5243 - total pixel acc 0.8530 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3503 Seconds
+02/25/2024 08:41:02 PM Epoch 8 - iter 1035/1488 - total loss 0.3352 - total mean iou 0.5253 - total pixel acc 0.8545 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3504 Seconds
+02/25/2024 08:42:12 PM Epoch 8 - iter 1183/1488 - total loss 0.3366 - total mean iou 0.5232 - total pixel acc 0.8460 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3505 Seconds
+02/25/2024 08:43:22 PM Epoch 8 - iter 1331/1488 - total loss 0.3182 - total mean iou 0.5415 - total pixel acc 0.8631 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3505 Seconds
+02/25/2024 08:44:32 PM Epoch 8 - iter 1479/1488 - total loss 0.3277 - total mean iou 0.5269 - total pixel acc 0.8554 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3505 Seconds
+02/25/2024 08:44:36 PM Epoch #8: Average Loss 0.33637377912158606 - Epoch Training Time: 8.0 minute/s and 40.738399999999956 seconds - Total Training Time: 8.0 minute/s and 40.738399999999956 seconds
+02/25/2024 08:47:22 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 08:47:22 PM Epoch #8: Average Validation Loss: 0.3751 - Average Validation Pixel Acc: 0.8280 - Average Validation Mean IOU: 0.5332
+02/25/2024 08:47:22 PM 
+02/25/2024 08:47:22 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 08:48:32 PM Epoch 9 - iter 147/1488 - total loss 0.3312 - total mean iou 0.5337 - total pixel acc 0.8550 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3466 Seconds
+02/25/2024 08:49:42 PM Epoch 9 - iter 295/1488 - total loss 0.3241 - total mean iou 0.5323 - total pixel acc 0.8579 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3503 Seconds
+02/25/2024 08:50:52 PM Epoch 9 - iter 443/1488 - total loss 0.3308 - total mean iou 0.5357 - total pixel acc 0.8523 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3506 Seconds
+02/25/2024 08:52:02 PM Epoch 9 - iter 591/1488 - total loss 0.3303 - total mean iou 0.5285 - total pixel acc 0.8549 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3507 Seconds
+02/25/2024 08:53:12 PM Epoch 9 - iter 739/1488 - total loss 0.3310 - total mean iou 0.5311 - total pixel acc 0.8489 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3506 Seconds
+02/25/2024 08:54:22 PM Epoch 9 - iter 887/1488 - total loss 0.3209 - total mean iou 0.5335 - total pixel acc 0.8579 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3503 Seconds
+02/25/2024 08:55:32 PM Epoch 9 - iter 1035/1488 - total loss 0.3218 - total mean iou 0.5330 - total pixel acc 0.8584 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3504 Seconds
+02/25/2024 08:56:42 PM Epoch 9 - iter 1183/1488 - total loss 0.3117 - total mean iou 0.5357 - total pixel acc 0.8533 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3504 Seconds
+02/25/2024 08:57:52 PM Epoch 9 - iter 1331/1488 - total loss 0.3035 - total mean iou 0.5505 - total pixel acc 0.8676 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3504 Seconds
+02/25/2024 08:59:02 PM Epoch 9 - iter 1479/1488 - total loss 0.3133 - total mean iou 0.5370 - total pixel acc 0.8598 - UNet Decoder lr: 1.00e-03 - UNet Classifier lr: 1.00e-02 - secs/batch 0.3505 Seconds
+02/25/2024 08:59:05 PM Epoch #9: Average Loss 0.32220785094985877 - Epoch Training Time: 8.0 minute/s and 40.76400000000001 seconds - Total Training Time: 8.0 minute/s and 40.76400000000001 seconds
+02/25/2024 09:01:55 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 09:01:55 PM Epoch #9: Average Validation Loss: 0.5807 - Average Validation Pixel Acc: 0.7657 - Average Validation Mean IOU: 0.4764
+02/25/2024 09:01:55 PM 
+02/25/2024 09:01:55 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 09:03:05 PM Epoch 10 - iter 147/1488 - total loss 0.2871 - total mean iou 0.5586 - total pixel acc 0.8691 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.346 Seconds
+02/25/2024 09:04:15 PM Epoch 10 - iter 295/1488 - total loss 0.2752 - total mean iou 0.5644 - total pixel acc 0.8734 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3502 Seconds
+02/25/2024 09:05:26 PM Epoch 10 - iter 443/1488 - total loss 0.2785 - total mean iou 0.5660 - total pixel acc 0.8683 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3507 Seconds
+02/25/2024 09:06:37 PM Epoch 10 - iter 591/1488 - total loss 0.2688 - total mean iou 0.5652 - total pixel acc 0.8741 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3507 Seconds
+02/25/2024 09:07:47 PM Epoch 10 - iter 739/1488 - total loss 0.2697 - total mean iou 0.5652 - total pixel acc 0.8683 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3507 Seconds
+02/25/2024 09:08:58 PM Epoch 10 - iter 887/1488 - total loss 0.2546 - total mean iou 0.5697 - total pixel acc 0.8754 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3506 Seconds
+02/25/2024 09:10:09 PM Epoch 10 - iter 1035/1488 - total loss 0.2522 - total mean iou 0.5712 - total pixel acc 0.8800 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3505 Seconds
+02/25/2024 09:11:19 PM Epoch 10 - iter 1183/1488 - total loss 0.2565 - total mean iou 0.5696 - total pixel acc 0.8704 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3506 Seconds
+02/25/2024 09:12:30 PM Epoch 10 - iter 1331/1488 - total loss 0.2439 - total mean iou 0.5862 - total pixel acc 0.8845 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3506 Seconds
+02/25/2024 09:13:40 PM Epoch 10 - iter 1479/1488 - total loss 0.2426 - total mean iou 0.5767 - total pixel acc 0.8808 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3505 Seconds
+02/25/2024 09:13:44 PM Epoch #10: Average Loss 0.2630843574041 - Epoch Training Time: 8.0 minute/s and 40.783000000000015 seconds - Total Training Time: 8.0 minute/s and 40.783000000000015 seconds
+02/25/2024 09:16:33 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 09:16:33 PM Epoch #10: Average Validation Loss: 0.2656 - Average Validation Pixel Acc: 0.8636 - Average Validation Mean IOU: 0.5880
+02/25/2024 09:16:33 PM 
+02/25/2024 09:16:33 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 09:17:42 PM Epoch 11 - iter 147/1488 - total loss 0.2519 - total mean iou 0.5786 - total pixel acc 0.8805 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3462 Seconds
+02/25/2024 09:18:52 PM Epoch 11 - iter 295/1488 - total loss 0.2568 - total mean iou 0.5737 - total pixel acc 0.8785 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3501 Seconds
+02/25/2024 09:20:02 PM Epoch 11 - iter 443/1488 - total loss 0.2644 - total mean iou 0.5750 - total pixel acc 0.8724 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3506 Seconds
+02/25/2024 09:21:12 PM Epoch 11 - iter 591/1488 - total loss 0.2572 - total mean iou 0.5734 - total pixel acc 0.8777 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3507 Seconds
+02/25/2024 09:22:22 PM Epoch 11 - iter 739/1488 - total loss 0.2582 - total mean iou 0.5713 - total pixel acc 0.8713 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3506 Seconds
+02/25/2024 09:23:32 PM Epoch 11 - iter 887/1488 - total loss 0.2438 - total mean iou 0.5765 - total pixel acc 0.8786 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3503 Seconds
+02/25/2024 09:24:42 PM Epoch 11 - iter 1035/1488 - total loss 0.2431 - total mean iou 0.5768 - total pixel acc 0.8829 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3504 Seconds
+02/25/2024 09:25:52 PM Epoch 11 - iter 1183/1488 - total loss 0.2480 - total mean iou 0.5751 - total pixel acc 0.8728 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3504 Seconds
+02/25/2024 09:27:01 PM Epoch 11 - iter 1331/1488 - total loss 0.2374 - total mean iou 0.5904 - total pixel acc 0.8866 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3502 Seconds
+02/25/2024 09:28:11 PM Epoch 11 - iter 1479/1488 - total loss 0.2376 - total mean iou 0.5811 - total pixel acc 0.8826 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3503 Seconds
+02/25/2024 09:28:15 PM Epoch #11: Average Loss 0.25009719202775627 - Epoch Training Time: 8.0 minute/s and 40.62689999999998 seconds - Total Training Time: 8.0 minute/s and 40.62689999999998 seconds
+02/25/2024 09:31:01 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 09:31:01 PM Epoch #11: Average Validation Loss: 0.2602 - Average Validation Pixel Acc: 0.8652 - Average Validation Mean IOU: 0.5923
+02/25/2024 09:31:01 PM 
+02/25/2024 09:31:01 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 09:32:11 PM Epoch 12 - iter 147/1488 - total loss 0.2463 - total mean iou 0.5821 - total pixel acc 0.8820 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3457 Seconds
+02/25/2024 09:33:21 PM Epoch 12 - iter 295/1488 - total loss 0.2489 - total mean iou 0.5781 - total pixel acc 0.8806 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.35 Seconds
+02/25/2024 09:34:32 PM Epoch 12 - iter 443/1488 - total loss 0.2564 - total mean iou 0.5796 - total pixel acc 0.8749 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3501 Seconds
+02/25/2024 09:35:42 PM Epoch 12 - iter 591/1488 - total loss 0.2509 - total mean iou 0.5774 - total pixel acc 0.8799 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3502 Seconds
+02/25/2024 09:36:52 PM Epoch 12 - iter 739/1488 - total loss 0.2528 - total mean iou 0.5748 - total pixel acc 0.8729 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3504 Seconds
+02/25/2024 09:38:02 PM Epoch 12 - iter 887/1488 - total loss 0.2388 - total mean iou 0.5793 - total pixel acc 0.8802 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3502 Seconds
+02/25/2024 09:39:13 PM Epoch 12 - iter 1035/1488 - total loss 0.2380 - total mean iou 0.5805 - total pixel acc 0.8846 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3499 Seconds
+02/25/2024 09:40:23 PM Epoch 12 - iter 1183/1488 - total loss 0.2426 - total mean iou 0.5785 - total pixel acc 0.8744 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.35 Seconds
+02/25/2024 09:41:34 PM Epoch 12 - iter 1331/1488 - total loss 0.2323 - total mean iou 0.5937 - total pixel acc 0.8881 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.35 Seconds
+02/25/2024 09:42:44 PM Epoch 12 - iter 1479/1488 - total loss 0.2346 - total mean iou 0.5842 - total pixel acc 0.8837 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.35 Seconds
+02/25/2024 09:42:48 PM Epoch #12: Average Loss 0.2444343547517013 - Epoch Training Time: 8.0 minute/s and 40.125999999999976 seconds - Total Training Time: 8.0 minute/s and 40.125999999999976 seconds
+02/25/2024 09:45:35 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 09:45:35 PM Epoch #12: Average Validation Loss: 0.2571 - Average Validation Pixel Acc: 0.8663 - Average Validation Mean IOU: 0.5956
+02/25/2024 09:45:35 PM 
+02/25/2024 09:45:35 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 09:46:44 PM Epoch 13 - iter 147/1488 - total loss 0.2422 - total mean iou 0.5855 - total pixel acc 0.8834 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3459 Seconds
+02/25/2024 09:47:54 PM Epoch 13 - iter 295/1488 - total loss 0.2429 - total mean iou 0.5816 - total pixel acc 0.8823 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3501 Seconds
+02/25/2024 09:49:05 PM Epoch 13 - iter 443/1488 - total loss 0.2505 - total mean iou 0.5839 - total pixel acc 0.8766 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3505 Seconds
+02/25/2024 09:50:15 PM Epoch 13 - iter 591/1488 - total loss 0.2466 - total mean iou 0.5808 - total pixel acc 0.8811 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3508 Seconds
+02/25/2024 09:51:25 PM Epoch 13 - iter 739/1488 - total loss 0.2476 - total mean iou 0.5779 - total pixel acc 0.8746 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3504 Seconds
+02/25/2024 09:52:35 PM Epoch 13 - iter 887/1488 - total loss 0.2334 - total mean iou 0.5830 - total pixel acc 0.8819 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3506 Seconds
+02/25/2024 09:53:45 PM Epoch 13 - iter 1035/1488 - total loss 0.2332 - total mean iou 0.5842 - total pixel acc 0.8860 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3505 Seconds
+02/25/2024 09:54:55 PM Epoch 13 - iter 1183/1488 - total loss 0.2383 - total mean iou 0.5811 - total pixel acc 0.8755 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3505 Seconds
+02/25/2024 09:56:05 PM Epoch 13 - iter 1331/1488 - total loss 0.2284 - total mean iou 0.5959 - total pixel acc 0.8893 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3504 Seconds
+02/25/2024 09:57:15 PM Epoch 13 - iter 1479/1488 - total loss 0.2301 - total mean iou 0.5866 - total pixel acc 0.8849 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3504 Seconds
+02/25/2024 09:57:18 PM Epoch #13: Average Loss 0.23959095581304482 - Epoch Training Time: 8.0 minute/s and 40.65769999999998 seconds - Total Training Time: 8.0 minute/s and 40.65769999999998 seconds
+02/25/2024 10:00:05 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 10:00:05 PM Epoch #13: Average Validation Loss: 0.2537 - Average Validation Pixel Acc: 0.8673 - Average Validation Mean IOU: 0.5979
+02/25/2024 10:00:05 PM 
+02/25/2024 10:00:05 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 10:01:15 PM Epoch 14 - iter 147/1488 - total loss 0.2371 - total mean iou 0.5881 - total pixel acc 0.8847 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3462 Seconds
+02/25/2024 10:02:25 PM Epoch 14 - iter 295/1488 - total loss 0.2388 - total mean iou 0.5852 - total pixel acc 0.8837 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3504 Seconds
+02/25/2024 10:03:36 PM Epoch 14 - iter 443/1488 - total loss 0.2477 - total mean iou 0.5860 - total pixel acc 0.8775 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3506 Seconds
+02/25/2024 10:04:46 PM Epoch 14 - iter 591/1488 - total loss 0.2434 - total mean iou 0.5833 - total pixel acc 0.8819 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3509 Seconds
+02/25/2024 10:05:56 PM Epoch 14 - iter 739/1488 - total loss 0.2436 - total mean iou 0.5794 - total pixel acc 0.8755 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3507 Seconds
+02/25/2024 10:07:07 PM Epoch 14 - iter 887/1488 - total loss 0.2295 - total mean iou 0.5859 - total pixel acc 0.8831 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3507 Seconds
+02/25/2024 10:08:17 PM Epoch 14 - iter 1035/1488 - total loss 0.2298 - total mean iou 0.5866 - total pixel acc 0.8872 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3504 Seconds
+02/25/2024 10:09:28 PM Epoch 14 - iter 1183/1488 - total loss 0.2347 - total mean iou 0.5837 - total pixel acc 0.8767 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3506 Seconds
+02/25/2024 10:10:38 PM Epoch 14 - iter 1331/1488 - total loss 0.2253 - total mean iou 0.5982 - total pixel acc 0.8903 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3504 Seconds
+02/25/2024 10:11:48 PM Epoch 14 - iter 1479/1488 - total loss 0.2281 - total mean iou 0.5891 - total pixel acc 0.8856 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3505 Seconds
+02/25/2024 10:11:52 PM Epoch #14: Average Loss 0.2360750827337465 - Epoch Training Time: 8.0 minute/s and 40.81960000000004 seconds - Total Training Time: 8.0 minute/s and 40.81960000000004 seconds
+02/25/2024 10:14:41 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 10:14:41 PM Epoch #14: Average Validation Loss: 0.2523 - Average Validation Pixel Acc: 0.8678 - Average Validation Mean IOU: 0.5994
+02/25/2024 10:14:41 PM 
+02/25/2024 10:14:41 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 10:15:51 PM Epoch 15 - iter 147/1488 - total loss 0.2339 - total mean iou 0.5908 - total pixel acc 0.8860 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3461 Seconds
+02/25/2024 10:17:01 PM Epoch 15 - iter 295/1488 - total loss 0.2339 - total mean iou 0.5871 - total pixel acc 0.8852 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3502 Seconds
+02/25/2024 10:18:11 PM Epoch 15 - iter 443/1488 - total loss 0.2448 - total mean iou 0.5882 - total pixel acc 0.8784 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3504 Seconds
+02/25/2024 10:19:20 PM Epoch 15 - iter 591/1488 - total loss 0.2407 - total mean iou 0.5854 - total pixel acc 0.8831 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3505 Seconds
+02/25/2024 10:20:30 PM Epoch 15 - iter 739/1488 - total loss 0.2394 - total mean iou 0.5820 - total pixel acc 0.8768 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3506 Seconds
+02/25/2024 10:21:40 PM Epoch 15 - iter 887/1488 - total loss 0.2254 - total mean iou 0.5891 - total pixel acc 0.8845 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3504 Seconds
+02/25/2024 10:22:50 PM Epoch 15 - iter 1035/1488 - total loss 0.2259 - total mean iou 0.5900 - total pixel acc 0.8885 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3504 Seconds
+02/25/2024 10:24:00 PM Epoch 15 - iter 1183/1488 - total loss 0.2316 - total mean iou 0.5859 - total pixel acc 0.8776 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3503 Seconds
+02/25/2024 10:25:10 PM Epoch 15 - iter 1331/1488 - total loss 0.2221 - total mean iou 0.6009 - total pixel acc 0.8915 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3502 Seconds
+02/25/2024 10:26:20 PM Epoch 15 - iter 1479/1488 - total loss 0.2242 - total mean iou 0.5918 - total pixel acc 0.8868 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3503 Seconds
+02/25/2024 10:26:24 PM Epoch #15: Average Loss 0.23241878157701865 - Epoch Training Time: 8.0 minute/s and 40.543199999999956 seconds - Total Training Time: 8.0 minute/s and 40.543199999999956 seconds
+02/25/2024 10:29:11 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 10:29:11 PM Epoch #15: Average Validation Loss: 0.2489 - Average Validation Pixel Acc: 0.8688 - Average Validation Mean IOU: 0.6019
+02/25/2024 10:29:11 PM 
+02/25/2024 10:29:11 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 10:30:20 PM Epoch 16 - iter 147/1488 - total loss 0.2295 - total mean iou 0.5934 - total pixel acc 0.8871 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3459 Seconds
+02/25/2024 10:31:30 PM Epoch 16 - iter 295/1488 - total loss 0.2297 - total mean iou 0.5897 - total pixel acc 0.8862 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3501 Seconds
+02/25/2024 10:32:40 PM Epoch 16 - iter 443/1488 - total loss 0.2394 - total mean iou 0.5919 - total pixel acc 0.8800 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3506 Seconds
+02/25/2024 10:33:50 PM Epoch 16 - iter 591/1488 - total loss 0.2366 - total mean iou 0.5874 - total pixel acc 0.8843 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3507 Seconds
+02/25/2024 10:35:00 PM Epoch 16 - iter 739/1488 - total loss 0.2359 - total mean iou 0.5845 - total pixel acc 0.8779 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3506 Seconds
+02/25/2024 10:36:10 PM Epoch 16 - iter 887/1488 - total loss 0.2223 - total mean iou 0.5915 - total pixel acc 0.8854 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3505 Seconds
+02/25/2024 10:37:20 PM Epoch 16 - iter 1035/1488 - total loss 0.2231 - total mean iou 0.5913 - total pixel acc 0.8892 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3506 Seconds
+02/25/2024 10:38:30 PM Epoch 16 - iter 1183/1488 - total loss 0.2269 - total mean iou 0.5879 - total pixel acc 0.8787 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3505 Seconds
+02/25/2024 10:39:40 PM Epoch 16 - iter 1331/1488 - total loss 0.2188 - total mean iou 0.6037 - total pixel acc 0.8926 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3506 Seconds
+02/25/2024 10:40:50 PM Epoch 16 - iter 1479/1488 - total loss 0.2211 - total mean iou 0.5941 - total pixel acc 0.8877 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3504 Seconds
+02/25/2024 10:40:54 PM Epoch #16: Average Loss 0.22859851083648142 - Epoch Training Time: 8.0 minute/s and 40.71079999999995 seconds - Total Training Time: 8.0 minute/s and 40.71079999999995 seconds
+02/25/2024 10:43:40 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 10:43:40 PM Epoch #16: Average Validation Loss: 0.2466 - Average Validation Pixel Acc: 0.8696 - Average Validation Mean IOU: 0.6047
+02/25/2024 10:43:40 PM 
+02/25/2024 10:43:40 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 10:44:50 PM Epoch 17 - iter 147/1488 - total loss 0.2277 - total mean iou 0.5953 - total pixel acc 0.8879 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3461 Seconds
+02/25/2024 10:46:00 PM Epoch 17 - iter 295/1488 - total loss 0.2269 - total mean iou 0.5923 - total pixel acc 0.8873 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3501 Seconds
+02/25/2024 10:47:10 PM Epoch 17 - iter 443/1488 - total loss 0.2374 - total mean iou 0.5932 - total pixel acc 0.8807 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3505 Seconds
+02/25/2024 10:48:20 PM Epoch 17 - iter 591/1488 - total loss 0.2344 - total mean iou 0.5899 - total pixel acc 0.8850 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3505 Seconds
+02/25/2024 10:49:31 PM Epoch 17 - iter 739/1488 - total loss 0.2335 - total mean iou 0.5863 - total pixel acc 0.8786 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3506 Seconds
+02/25/2024 10:50:41 PM Epoch 17 - iter 887/1488 - total loss 0.2201 - total mean iou 0.5927 - total pixel acc 0.8859 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3506 Seconds
+02/25/2024 10:51:51 PM Epoch 17 - iter 1035/1488 - total loss 0.2198 - total mean iou 0.5934 - total pixel acc 0.8903 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3503 Seconds
+02/25/2024 10:53:01 PM Epoch 17 - iter 1183/1488 - total loss 0.2246 - total mean iou 0.5900 - total pixel acc 0.8797 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3502 Seconds
+02/25/2024 10:54:12 PM Epoch 17 - iter 1331/1488 - total loss 0.2151 - total mean iou 0.6062 - total pixel acc 0.8939 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3502 Seconds
+02/25/2024 10:55:22 PM Epoch 17 - iter 1479/1488 - total loss 0.2190 - total mean iou 0.5960 - total pixel acc 0.8884 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3503 Seconds
+02/25/2024 10:55:25 PM Epoch #17: Average Loss 0.2261207292397176 - Epoch Training Time: 8.0 minute/s and 40.54020000000003 seconds - Total Training Time: 8.0 minute/s and 40.54020000000003 seconds
+02/25/2024 10:58:13 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 10:58:13 PM Epoch #17: Average Validation Loss: 0.2458 - Average Validation Pixel Acc: 0.8698 - Average Validation Mean IOU: 0.6057
+02/25/2024 10:58:13 PM 
+02/25/2024 10:58:13 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 10:59:23 PM Epoch 18 - iter 147/1488 - total loss 0.2243 - total mean iou 0.5981 - total pixel acc 0.8891 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3461 Seconds
+02/25/2024 11:00:34 PM Epoch 18 - iter 295/1488 - total loss 0.2220 - total mean iou 0.5950 - total pixel acc 0.8886 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3502 Seconds
+02/25/2024 11:01:44 PM Epoch 18 - iter 443/1488 - total loss 0.2328 - total mean iou 0.5960 - total pixel acc 0.8818 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3504 Seconds
+02/25/2024 11:02:55 PM Epoch 18 - iter 591/1488 - total loss 0.2293 - total mean iou 0.5933 - total pixel acc 0.8868 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3507 Seconds
+02/25/2024 11:04:06 PM Epoch 18 - iter 739/1488 - total loss 0.2300 - total mean iou 0.5886 - total pixel acc 0.8797 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3506 Seconds
+02/25/2024 11:05:16 PM Epoch 18 - iter 887/1488 - total loss 0.2175 - total mean iou 0.5954 - total pixel acc 0.8871 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3504 Seconds
+02/25/2024 11:06:27 PM Epoch 18 - iter 1035/1488 - total loss 0.2177 - total mean iou 0.5957 - total pixel acc 0.8912 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3503 Seconds
+02/25/2024 11:07:38 PM Epoch 18 - iter 1183/1488 - total loss 0.2221 - total mean iou 0.5922 - total pixel acc 0.8802 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3503 Seconds
+02/25/2024 11:08:48 PM Epoch 18 - iter 1331/1488 - total loss 0.2124 - total mean iou 0.6085 - total pixel acc 0.8948 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3505 Seconds
+02/25/2024 11:09:59 PM Epoch 18 - iter 1479/1488 - total loss 0.2158 - total mean iou 0.5983 - total pixel acc 0.8894 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3504 Seconds
+02/25/2024 11:10:03 PM Epoch #18: Average Loss 0.22263098530651582 - Epoch Training Time: 8.0 minute/s and 40.60360000000003 seconds - Total Training Time: 8.0 minute/s and 40.60360000000003 seconds
+02/25/2024 11:12:52 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 11:12:52 PM Epoch #18: Average Validation Loss: 0.2461 - Average Validation Pixel Acc: 0.8700 - Average Validation Mean IOU: 0.6067
+02/25/2024 11:12:52 PM 
+02/25/2024 11:12:52 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 11:14:02 PM Epoch 19 - iter 147/1488 - total loss 0.2207 - total mean iou 0.6000 - total pixel acc 0.8901 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3462 Seconds
+02/25/2024 11:15:12 PM Epoch 19 - iter 295/1488 - total loss 0.2195 - total mean iou 0.5968 - total pixel acc 0.8893 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3501 Seconds
+02/25/2024 11:16:23 PM Epoch 19 - iter 443/1488 - total loss 0.2297 - total mean iou 0.5980 - total pixel acc 0.8828 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3506 Seconds
+02/25/2024 11:17:33 PM Epoch 19 - iter 591/1488 - total loss 0.2268 - total mean iou 0.5949 - total pixel acc 0.8874 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3506 Seconds
+02/25/2024 11:18:44 PM Epoch 19 - iter 739/1488 - total loss 0.2271 - total mean iou 0.5917 - total pixel acc 0.8806 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3504 Seconds
+02/25/2024 11:19:54 PM Epoch 19 - iter 887/1488 - total loss 0.2135 - total mean iou 0.5969 - total pixel acc 0.8882 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3504 Seconds
+02/25/2024 11:21:04 PM Epoch 19 - iter 1035/1488 - total loss 0.2139 - total mean iou 0.5983 - total pixel acc 0.8922 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3503 Seconds
+02/25/2024 11:22:15 PM Epoch 19 - iter 1183/1488 - total loss 0.2179 - total mean iou 0.5944 - total pixel acc 0.8818 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3502 Seconds
+02/25/2024 11:23:25 PM Epoch 19 - iter 1331/1488 - total loss 0.2099 - total mean iou 0.6100 - total pixel acc 0.8955 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3502 Seconds
+02/25/2024 11:24:35 PM Epoch 19 - iter 1479/1488 - total loss 0.2138 - total mean iou 0.6005 - total pixel acc 0.8900 - UNet Decoder lr: 1.00e-04 - UNet Classifier lr: 1.00e-03 - secs/batch 0.3502 Seconds
+02/25/2024 11:24:39 PM Epoch #19: Average Loss 0.21952965965254173 - Epoch Training Time: 8.0 minute/s and 40.52639999999997 seconds - Total Training Time: 8.0 minute/s and 40.52639999999997 seconds
+02/25/2024 11:27:27 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 11:27:27 PM Epoch #19: Average Validation Loss: 0.2433 - Average Validation Pixel Acc: 0.8707 - Average Validation Mean IOU: 0.6080
+02/25/2024 11:27:27 PM 
+02/25/2024 11:27:27 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 11:28:37 PM Epoch 20 - iter 147/1488 - total loss 0.2176 - total mean iou 0.6025 - total pixel acc 0.8909 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3461 Seconds
+02/25/2024 11:29:48 PM Epoch 20 - iter 295/1488 - total loss 0.2139 - total mean iou 0.6017 - total pixel acc 0.8912 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3503 Seconds
+02/25/2024 11:30:59 PM Epoch 20 - iter 443/1488 - total loss 0.2239 - total mean iou 0.6017 - total pixel acc 0.8847 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3507 Seconds
+02/25/2024 11:32:09 PM Epoch 20 - iter 591/1488 - total loss 0.2194 - total mean iou 0.5993 - total pixel acc 0.8897 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3508 Seconds
+02/25/2024 11:33:20 PM Epoch 20 - iter 739/1488 - total loss 0.2199 - total mean iou 0.5955 - total pixel acc 0.8827 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3506 Seconds
+02/25/2024 11:34:31 PM Epoch 20 - iter 887/1488 - total loss 0.2059 - total mean iou 0.6011 - total pixel acc 0.8903 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3506 Seconds
+02/25/2024 11:35:42 PM Epoch 20 - iter 1035/1488 - total loss 0.2057 - total mean iou 0.6025 - total pixel acc 0.8943 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3505 Seconds
+02/25/2024 11:36:52 PM Epoch 20 - iter 1183/1488 - total loss 0.2096 - total mean iou 0.5994 - total pixel acc 0.8841 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3503 Seconds
+02/25/2024 11:38:03 PM Epoch 20 - iter 1331/1488 - total loss 0.1989 - total mean iou 0.6167 - total pixel acc 0.8989 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3505 Seconds
+02/25/2024 11:39:13 PM Epoch 20 - iter 1479/1488 - total loss 0.2042 - total mean iou 0.6059 - total pixel acc 0.8927 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3504 Seconds
+02/25/2024 11:39:17 PM Epoch #20: Average Loss 0.2121285418679397 - Epoch Training Time: 8.0 minute/s and 40.774400000000014 seconds - Total Training Time: 8.0 minute/s and 40.774400000000014 seconds
+02/25/2024 11:42:05 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 11:42:05 PM Epoch #20: Average Validation Loss: 0.2415 - Average Validation Pixel Acc: 0.8718 - Average Validation Mean IOU: 0.6067
+02/25/2024 11:42:05 PM 
+02/25/2024 11:42:05 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 11:43:15 PM Epoch 21 - iter 147/1488 - total loss 0.2126 - total mean iou 0.6046 - total pixel acc 0.8928 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3459 Seconds
+02/25/2024 11:44:26 PM Epoch 21 - iter 295/1488 - total loss 0.2110 - total mean iou 0.6034 - total pixel acc 0.8920 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.35 Seconds
+02/25/2024 11:45:36 PM Epoch 21 - iter 443/1488 - total loss 0.2207 - total mean iou 0.6035 - total pixel acc 0.8856 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3504 Seconds
+02/25/2024 11:46:46 PM Epoch 21 - iter 591/1488 - total loss 0.2178 - total mean iou 0.6000 - total pixel acc 0.8899 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3504 Seconds
+02/25/2024 11:47:57 PM Epoch 21 - iter 739/1488 - total loss 0.2178 - total mean iou 0.5972 - total pixel acc 0.8835 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3504 Seconds
+02/25/2024 11:49:07 PM Epoch 21 - iter 887/1488 - total loss 0.2064 - total mean iou 0.6017 - total pixel acc 0.8904 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3503 Seconds
+02/25/2024 11:50:18 PM Epoch 21 - iter 1035/1488 - total loss 0.2045 - total mean iou 0.6035 - total pixel acc 0.8948 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.35 Seconds
+02/25/2024 11:51:28 PM Epoch 21 - iter 1183/1488 - total loss 0.2089 - total mean iou 0.6001 - total pixel acc 0.8842 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3501 Seconds
+02/25/2024 11:52:38 PM Epoch 21 - iter 1331/1488 - total loss 0.1994 - total mean iou 0.6171 - total pixel acc 0.8988 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3503 Seconds
+02/25/2024 11:53:49 PM Epoch 21 - iter 1479/1488 - total loss 0.2032 - total mean iou 0.6066 - total pixel acc 0.8932 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3503 Seconds
+02/25/2024 11:53:52 PM Epoch #21: Average Loss 0.2104664747302811 - Epoch Training Time: 8.0 minute/s and 40.35850000000005 seconds - Total Training Time: 8.0 minute/s and 40.35850000000005 seconds
+02/25/2024 11:56:40 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 11:56:40 PM Epoch #21: Average Validation Loss: 0.2405 - Average Validation Pixel Acc: 0.8721 - Average Validation Mean IOU: 0.6078
+02/25/2024 11:56:40 PM 
+02/25/2024 11:56:40 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 11:57:49 PM Epoch 22 - iter 147/1488 - total loss 0.2121 - total mean iou 0.6053 - total pixel acc 0.8928 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3461 Seconds
+02/25/2024 11:59:00 PM Epoch 22 - iter 295/1488 - total loss 0.2103 - total mean iou 0.6041 - total pixel acc 0.8924 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3504 Seconds
+02/26/2024 12:00:10 AM Epoch 22 - iter 443/1488 - total loss 0.2206 - total mean iou 0.6041 - total pixel acc 0.8856 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3506 Seconds
+02/26/2024 12:01:20 AM Epoch 22 - iter 591/1488 - total loss 0.2165 - total mean iou 0.6018 - total pixel acc 0.8906 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3507 Seconds
+02/26/2024 12:02:31 AM Epoch 22 - iter 739/1488 - total loss 0.2168 - total mean iou 0.5972 - total pixel acc 0.8837 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3505 Seconds
+02/26/2024 12:03:41 AM Epoch 22 - iter 887/1488 - total loss 0.2053 - total mean iou 0.6027 - total pixel acc 0.8908 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3504 Seconds
+02/26/2024 12:04:52 AM Epoch 22 - iter 1035/1488 - total loss 0.2038 - total mean iou 0.6040 - total pixel acc 0.8950 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3505 Seconds
+02/26/2024 12:06:02 AM Epoch 22 - iter 1183/1488 - total loss 0.2073 - total mean iou 0.6012 - total pixel acc 0.8846 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3504 Seconds
+02/26/2024 12:07:12 AM Epoch 22 - iter 1331/1488 - total loss 0.1984 - total mean iou 0.6171 - total pixel acc 0.8991 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3504 Seconds
+02/26/2024 12:08:23 AM Epoch 22 - iter 1479/1488 - total loss 0.2031 - total mean iou 0.6058 - total pixel acc 0.8930 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3505 Seconds
+02/26/2024 12:08:26 AM Epoch #22: Average Loss 0.20965205377808982 - Epoch Training Time: 8.0 minute/s and 40.726099999999974 seconds - Total Training Time: 8.0 minute/s and 40.726099999999974 seconds
+02/26/2024 12:11:15 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 12:11:15 AM Epoch #22: Average Validation Loss: 0.2408 - Average Validation Pixel Acc: 0.8721 - Average Validation Mean IOU: 0.6080
+02/26/2024 12:11:15 AM 
+02/26/2024 12:11:15 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 12:12:24 AM Epoch 23 - iter 147/1488 - total loss 0.2105 - total mean iou 0.6056 - total pixel acc 0.8931 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3462 Seconds
+02/26/2024 12:13:34 AM Epoch 23 - iter 295/1488 - total loss 0.2087 - total mean iou 0.6057 - total pixel acc 0.8930 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3501 Seconds
+02/26/2024 12:14:44 AM Epoch 23 - iter 443/1488 - total loss 0.2202 - total mean iou 0.6039 - total pixel acc 0.8856 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3505 Seconds
+02/26/2024 12:15:54 AM Epoch 23 - iter 591/1488 - total loss 0.2152 - total mean iou 0.6014 - total pixel acc 0.8909 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3507 Seconds
+02/26/2024 12:17:04 AM Epoch 23 - iter 739/1488 - total loss 0.2159 - total mean iou 0.5975 - total pixel acc 0.8839 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3507 Seconds
+02/26/2024 12:18:14 AM Epoch 23 - iter 887/1488 - total loss 0.2050 - total mean iou 0.6034 - total pixel acc 0.8910 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3506 Seconds
+02/26/2024 12:19:24 AM Epoch 23 - iter 1035/1488 - total loss 0.2033 - total mean iou 0.6043 - total pixel acc 0.8952 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3505 Seconds
+02/26/2024 12:20:34 AM Epoch 23 - iter 1183/1488 - total loss 0.2072 - total mean iou 0.6011 - total pixel acc 0.8848 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3504 Seconds
+02/26/2024 12:21:44 AM Epoch 23 - iter 1331/1488 - total loss 0.1981 - total mean iou 0.6180 - total pixel acc 0.8991 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3505 Seconds
+02/26/2024 12:22:54 AM Epoch 23 - iter 1479/1488 - total loss 0.2035 - total mean iou 0.6062 - total pixel acc 0.8930 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3506 Seconds
+02/26/2024 12:22:58 AM Epoch #23: Average Loss 0.2090024587157513 - Epoch Training Time: 8.0 minute/s and 40.74860000000001 seconds - Total Training Time: 8.0 minute/s and 40.74860000000001 seconds
+02/26/2024 12:25:46 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 12:25:46 AM Epoch #23: Average Validation Loss: 0.2400 - Average Validation Pixel Acc: 0.8723 - Average Validation Mean IOU: 0.6084
+02/26/2024 12:25:46 AM 
+02/26/2024 12:25:46 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 12:26:55 AM Epoch 24 - iter 147/1488 - total loss 0.2108 - total mean iou 0.6058 - total pixel acc 0.8930 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3462 Seconds
+02/26/2024 12:28:06 AM Epoch 24 - iter 295/1488 - total loss 0.2088 - total mean iou 0.6051 - total pixel acc 0.8927 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3501 Seconds
+02/26/2024 12:29:16 AM Epoch 24 - iter 443/1488 - total loss 0.2197 - total mean iou 0.6040 - total pixel acc 0.8860 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3504 Seconds
+02/26/2024 12:30:26 AM Epoch 24 - iter 591/1488 - total loss 0.2151 - total mean iou 0.6015 - total pixel acc 0.8909 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3505 Seconds
+02/26/2024 12:31:36 AM Epoch 24 - iter 739/1488 - total loss 0.2157 - total mean iou 0.5979 - total pixel acc 0.8842 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3505 Seconds
+02/26/2024 12:32:47 AM Epoch 24 - iter 887/1488 - total loss 0.2041 - total mean iou 0.6027 - total pixel acc 0.8911 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3502 Seconds
+02/26/2024 12:33:57 AM Epoch 24 - iter 1035/1488 - total loss 0.2030 - total mean iou 0.6050 - total pixel acc 0.8953 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3503 Seconds
+02/26/2024 12:35:07 AM Epoch 24 - iter 1183/1488 - total loss 0.2069 - total mean iou 0.6009 - total pixel acc 0.8847 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3502 Seconds
+02/26/2024 12:36:17 AM Epoch 24 - iter 1331/1488 - total loss 0.1978 - total mean iou 0.6184 - total pixel acc 0.8992 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3503 Seconds
+02/26/2024 12:37:28 AM Epoch 24 - iter 1479/1488 - total loss 0.2030 - total mean iou 0.6064 - total pixel acc 0.8933 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3502 Seconds
+02/26/2024 12:37:31 AM Epoch #24: Average Loss 0.20876113237733002 - Epoch Training Time: 8.0 minute/s and 40.48479999999995 seconds - Total Training Time: 8.0 minute/s and 40.48479999999995 seconds
+02/26/2024 12:40:22 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 12:40:22 AM Epoch #24: Average Validation Loss: 0.2405 - Average Validation Pixel Acc: 0.8722 - Average Validation Mean IOU: 0.6085
+02/26/2024 12:40:22 AM 
+02/26/2024 12:40:22 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 12:41:31 AM Epoch 25 - iter 147/1488 - total loss 0.2097 - total mean iou 0.6061 - total pixel acc 0.8934 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.346 Seconds
+02/26/2024 12:42:42 AM Epoch 25 - iter 295/1488 - total loss 0.2078 - total mean iou 0.6060 - total pixel acc 0.8932 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3501 Seconds
+02/26/2024 12:43:52 AM Epoch 25 - iter 443/1488 - total loss 0.2180 - total mean iou 0.6062 - total pixel acc 0.8866 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3504 Seconds
+02/26/2024 12:45:02 AM Epoch 25 - iter 591/1488 - total loss 0.2150 - total mean iou 0.6020 - total pixel acc 0.8909 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3511 Seconds
+02/26/2024 12:46:13 AM Epoch 25 - iter 739/1488 - total loss 0.2153 - total mean iou 0.5987 - total pixel acc 0.8842 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.351 Seconds
+02/26/2024 12:47:23 AM Epoch 25 - iter 887/1488 - total loss 0.2035 - total mean iou 0.6043 - total pixel acc 0.8913 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3503 Seconds
+02/26/2024 12:48:33 AM Epoch 25 - iter 1035/1488 - total loss 0.2038 - total mean iou 0.6042 - total pixel acc 0.8950 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3504 Seconds
+02/26/2024 12:49:44 AM Epoch 25 - iter 1183/1488 - total loss 0.2064 - total mean iou 0.6014 - total pixel acc 0.8849 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3503 Seconds
+02/26/2024 12:50:54 AM Epoch 25 - iter 1331/1488 - total loss 0.1981 - total mean iou 0.6177 - total pixel acc 0.8991 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3503 Seconds
+02/26/2024 12:52:04 AM Epoch 25 - iter 1479/1488 - total loss 0.2025 - total mean iou 0.6069 - total pixel acc 0.8934 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3502 Seconds
+02/26/2024 12:52:08 AM Epoch #25: Average Loss 0.20822714226600783 - Epoch Training Time: 8.0 minute/s and 40.64099999999996 seconds - Total Training Time: 8.0 minute/s and 40.64099999999996 seconds
+02/26/2024 12:54:58 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 12:54:58 AM Epoch #25: Average Validation Loss: 0.2404 - Average Validation Pixel Acc: 0.8723 - Average Validation Mean IOU: 0.6089
+02/26/2024 12:54:58 AM 
+02/26/2024 12:54:58 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 12:56:08 AM Epoch 26 - iter 147/1488 - total loss 0.2091 - total mean iou 0.6069 - total pixel acc 0.8938 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3461 Seconds
+02/26/2024 12:57:18 AM Epoch 26 - iter 295/1488 - total loss 0.2072 - total mean iou 0.6064 - total pixel acc 0.8933 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.35 Seconds
+02/26/2024 12:58:28 AM Epoch 26 - iter 443/1488 - total loss 0.2189 - total mean iou 0.6054 - total pixel acc 0.8862 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3504 Seconds
+02/26/2024 12:59:38 AM Epoch 26 - iter 591/1488 - total loss 0.2139 - total mean iou 0.6025 - total pixel acc 0.8914 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3505 Seconds
+02/26/2024 01:00:49 AM Epoch 26 - iter 739/1488 - total loss 0.2140 - total mean iou 0.5990 - total pixel acc 0.8846 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3503 Seconds
+02/26/2024 01:01:59 AM Epoch 26 - iter 887/1488 - total loss 0.2027 - total mean iou 0.6039 - total pixel acc 0.8916 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3503 Seconds
+02/26/2024 01:03:09 AM Epoch 26 - iter 1035/1488 - total loss 0.2034 - total mean iou 0.6043 - total pixel acc 0.8952 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3503 Seconds
+02/26/2024 01:04:19 AM Epoch 26 - iter 1183/1488 - total loss 0.2057 - total mean iou 0.6010 - total pixel acc 0.8849 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3502 Seconds
+02/26/2024 01:05:29 AM Epoch 26 - iter 1331/1488 - total loss 0.1965 - total mean iou 0.6192 - total pixel acc 0.8997 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3502 Seconds
+02/26/2024 01:06:40 AM Epoch 26 - iter 1479/1488 - total loss 0.2027 - total mean iou 0.6074 - total pixel acc 0.8932 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3502 Seconds
+02/26/2024 01:06:43 AM Epoch #26: Average Loss 0.20765632199203615 - Epoch Training Time: 8.0 minute/s and 40.41319999999996 seconds - Total Training Time: 8.0 minute/s and 40.41319999999996 seconds
+02/26/2024 01:09:32 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 01:09:32 AM Epoch #26: Average Validation Loss: 0.2398 - Average Validation Pixel Acc: 0.8724 - Average Validation Mean IOU: 0.6091
+02/26/2024 01:09:32 AM 
+02/26/2024 01:09:32 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 01:10:41 AM Epoch 27 - iter 147/1488 - total loss 0.2102 - total mean iou 0.6070 - total pixel acc 0.8933 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3461 Seconds
+02/26/2024 01:11:51 AM Epoch 27 - iter 295/1488 - total loss 0.2068 - total mean iou 0.6059 - total pixel acc 0.8934 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3501 Seconds
+02/26/2024 01:13:01 AM Epoch 27 - iter 443/1488 - total loss 0.2183 - total mean iou 0.6061 - total pixel acc 0.8864 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3504 Seconds
+02/26/2024 01:14:11 AM Epoch 27 - iter 591/1488 - total loss 0.2137 - total mean iou 0.6032 - total pixel acc 0.8915 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3505 Seconds
+02/26/2024 01:15:21 AM Epoch 27 - iter 739/1488 - total loss 0.2139 - total mean iou 0.5992 - total pixel acc 0.8847 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3507 Seconds
+02/26/2024 01:16:31 AM Epoch 27 - iter 887/1488 - total loss 0.2026 - total mean iou 0.6045 - total pixel acc 0.8916 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3505 Seconds
+02/26/2024 01:17:41 AM Epoch 27 - iter 1035/1488 - total loss 0.2023 - total mean iou 0.6057 - total pixel acc 0.8956 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3505 Seconds
+02/26/2024 01:18:51 AM Epoch 27 - iter 1183/1488 - total loss 0.2060 - total mean iou 0.6018 - total pixel acc 0.8852 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3505 Seconds
+02/26/2024 01:20:00 AM Epoch 27 - iter 1331/1488 - total loss 0.1968 - total mean iou 0.6183 - total pixel acc 0.8993 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3505 Seconds
+02/26/2024 01:21:10 AM Epoch 27 - iter 1479/1488 - total loss 0.2015 - total mean iou 0.6076 - total pixel acc 0.8937 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3506 Seconds
+02/26/2024 01:21:14 AM Epoch #27: Average Loss 0.2074717140746533 - Epoch Training Time: 8.0 minute/s and 40.6961 seconds - Total Training Time: 8.0 minute/s and 40.6961 seconds
+02/26/2024 01:24:01 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 01:24:01 AM Epoch #27: Average Validation Loss: 0.2402 - Average Validation Pixel Acc: 0.8724 - Average Validation Mean IOU: 0.6091
+02/26/2024 01:24:01 AM 
+02/26/2024 01:24:01 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 01:25:11 AM Epoch 28 - iter 147/1488 - total loss 0.2083 - total mean iou 0.6078 - total pixel acc 0.8939 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3459 Seconds
+02/26/2024 01:26:21 AM Epoch 28 - iter 295/1488 - total loss 0.2061 - total mean iou 0.6074 - total pixel acc 0.8937 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.35 Seconds
+02/26/2024 01:27:31 AM Epoch 28 - iter 443/1488 - total loss 0.2180 - total mean iou 0.6057 - total pixel acc 0.8865 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3505 Seconds
+02/26/2024 01:28:42 AM Epoch 28 - iter 591/1488 - total loss 0.2127 - total mean iou 0.6035 - total pixel acc 0.8916 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3505 Seconds
+02/26/2024 01:29:52 AM Epoch 28 - iter 739/1488 - total loss 0.2136 - total mean iou 0.6001 - total pixel acc 0.8848 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3504 Seconds
+02/26/2024 01:31:03 AM Epoch 28 - iter 887/1488 - total loss 0.2024 - total mean iou 0.6041 - total pixel acc 0.8917 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3503 Seconds
+02/26/2024 01:32:13 AM Epoch 28 - iter 1035/1488 - total loss 0.2014 - total mean iou 0.6058 - total pixel acc 0.8959 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3504 Seconds
+02/26/2024 01:33:24 AM Epoch 28 - iter 1183/1488 - total loss 0.2062 - total mean iou 0.6016 - total pixel acc 0.8849 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3501 Seconds
+02/26/2024 01:34:34 AM Epoch 28 - iter 1331/1488 - total loss 0.1974 - total mean iou 0.6185 - total pixel acc 0.8991 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3502 Seconds
+02/26/2024 01:35:45 AM Epoch 28 - iter 1479/1488 - total loss 0.2017 - total mean iou 0.6073 - total pixel acc 0.8936 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3503 Seconds
+02/26/2024 01:35:49 AM Epoch #28: Average Loss 0.20702794814602501 - Epoch Training Time: 8.0 minute/s and 40.427299999999946 seconds - Total Training Time: 8.0 minute/s and 40.427299999999946 seconds
+02/26/2024 01:38:36 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 01:38:36 AM Epoch #28: Average Validation Loss: 0.2398 - Average Validation Pixel Acc: 0.8725 - Average Validation Mean IOU: 0.6094
+02/26/2024 01:38:36 AM 
+02/26/2024 01:38:36 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 01:39:45 AM Epoch 29 - iter 147/1488 - total loss 0.2076 - total mean iou 0.6073 - total pixel acc 0.8940 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3463 Seconds
+02/26/2024 01:40:55 AM Epoch 29 - iter 295/1488 - total loss 0.2069 - total mean iou 0.6071 - total pixel acc 0.8935 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3504 Seconds
+02/26/2024 01:42:05 AM Epoch 29 - iter 443/1488 - total loss 0.2175 - total mean iou 0.6054 - total pixel acc 0.8865 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3506 Seconds
+02/26/2024 01:43:15 AM Epoch 29 - iter 591/1488 - total loss 0.2126 - total mean iou 0.6035 - total pixel acc 0.8919 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3507 Seconds
+02/26/2024 01:44:25 AM Epoch 29 - iter 739/1488 - total loss 0.2141 - total mean iou 0.6000 - total pixel acc 0.8847 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3506 Seconds
+02/26/2024 01:45:35 AM Epoch 29 - iter 887/1488 - total loss 0.2028 - total mean iou 0.6045 - total pixel acc 0.8915 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3506 Seconds
+02/26/2024 01:46:45 AM Epoch 29 - iter 1035/1488 - total loss 0.2025 - total mean iou 0.6057 - total pixel acc 0.8955 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3506 Seconds
+02/26/2024 01:47:55 AM Epoch 29 - iter 1183/1488 - total loss 0.2053 - total mean iou 0.6018 - total pixel acc 0.8853 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3505 Seconds
+02/26/2024 01:49:04 AM Epoch 29 - iter 1331/1488 - total loss 0.1966 - total mean iou 0.6189 - total pixel acc 0.8995 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3504 Seconds
+02/26/2024 01:50:14 AM Epoch 29 - iter 1479/1488 - total loss 0.2020 - total mean iou 0.6080 - total pixel acc 0.8935 - UNet Decoder lr: 1.00e-05 - UNet Classifier lr: 1.00e-04 - secs/batch 0.3505 Seconds
+02/26/2024 01:50:18 AM Epoch #29: Average Loss 0.20699988646052217 - Epoch Training Time: 8.0 minute/s and 40.793199999999956 seconds - Total Training Time: 8.0 minute/s and 40.793199999999956 seconds
+02/26/2024 01:53:05 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 01:53:05 AM Epoch #29: Average Validation Loss: 0.2402 - Average Validation Pixel Acc: 0.8724 - Average Validation Mean IOU: 0.6095
+02/26/2024 01:53:05 AM 
+02/26/2024 01:53:05 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 01:54:14 AM Epoch 30 - iter 147/1488 - total loss 0.2069 - total mean iou 0.6080 - total pixel acc 0.8943 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3463 Seconds
+02/26/2024 01:55:24 AM Epoch 30 - iter 295/1488 - total loss 0.2056 - total mean iou 0.6078 - total pixel acc 0.8939 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3501 Seconds
+02/26/2024 01:56:35 AM Epoch 30 - iter 443/1488 - total loss 0.2168 - total mean iou 0.6074 - total pixel acc 0.8870 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3505 Seconds
+02/26/2024 01:57:45 AM Epoch 30 - iter 591/1488 - total loss 0.2114 - total mean iou 0.6047 - total pixel acc 0.8920 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3507 Seconds
+02/26/2024 01:58:55 AM Epoch 30 - iter 739/1488 - total loss 0.2124 - total mean iou 0.6008 - total pixel acc 0.8850 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3505 Seconds
+02/26/2024 02:00:05 AM Epoch 30 - iter 887/1488 - total loss 0.2023 - total mean iou 0.6046 - total pixel acc 0.8917 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3504 Seconds
+02/26/2024 02:01:15 AM Epoch 30 - iter 1035/1488 - total loss 0.2005 - total mean iou 0.6070 - total pixel acc 0.8961 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3502 Seconds
+02/26/2024 02:02:25 AM Epoch 30 - iter 1183/1488 - total loss 0.2044 - total mean iou 0.6035 - total pixel acc 0.8857 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3502 Seconds
+02/26/2024 02:03:36 AM Epoch 30 - iter 1331/1488 - total loss 0.1948 - total mean iou 0.6201 - total pixel acc 0.9000 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3503 Seconds
+02/26/2024 02:04:46 AM Epoch 30 - iter 1479/1488 - total loss 0.1998 - total mean iou 0.6086 - total pixel acc 0.8940 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3503 Seconds
+02/26/2024 02:04:50 AM Epoch #30: Average Loss 0.2057398840214216 - Epoch Training Time: 8.0 minute/s and 40.580600000000004 seconds - Total Training Time: 8.0 minute/s and 40.580600000000004 seconds
+02/26/2024 02:07:37 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 02:07:37 AM Epoch #30: Average Validation Loss: 0.2385 - Average Validation Pixel Acc: 0.8728 - Average Validation Mean IOU: 0.6097
+02/26/2024 02:07:37 AM 
+02/26/2024 02:07:37 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 02:08:47 AM Epoch 31 - iter 147/1488 - total loss 0.2072 - total mean iou 0.6087 - total pixel acc 0.8943 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.346 Seconds
+02/26/2024 02:09:57 AM Epoch 31 - iter 295/1488 - total loss 0.2046 - total mean iou 0.6077 - total pixel acc 0.8941 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3502 Seconds
+02/26/2024 02:11:07 AM Epoch 31 - iter 443/1488 - total loss 0.2160 - total mean iou 0.6075 - total pixel acc 0.8873 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3505 Seconds
+02/26/2024 02:12:17 AM Epoch 31 - iter 591/1488 - total loss 0.2120 - total mean iou 0.6033 - total pixel acc 0.8916 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3504 Seconds
+02/26/2024 02:13:27 AM Epoch 31 - iter 739/1488 - total loss 0.2119 - total mean iou 0.6005 - total pixel acc 0.8851 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3503 Seconds
+02/26/2024 02:14:37 AM Epoch 31 - iter 887/1488 - total loss 0.2015 - total mean iou 0.6054 - total pixel acc 0.8920 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3502 Seconds
+02/26/2024 02:15:48 AM Epoch 31 - iter 1035/1488 - total loss 0.1992 - total mean iou 0.6077 - total pixel acc 0.8965 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3501 Seconds
+02/26/2024 02:16:58 AM Epoch 31 - iter 1183/1488 - total loss 0.2034 - total mean iou 0.6025 - total pixel acc 0.8859 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3503 Seconds
+02/26/2024 02:18:08 AM Epoch 31 - iter 1331/1488 - total loss 0.1949 - total mean iou 0.6189 - total pixel acc 0.8999 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3503 Seconds
+02/26/2024 02:19:18 AM Epoch 31 - iter 1479/1488 - total loss 0.1998 - total mean iou 0.6078 - total pixel acc 0.8938 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3503 Seconds
+02/26/2024 02:19:21 AM Epoch #31: Average Loss 0.20530290589717928 - Epoch Training Time: 8.0 minute/s and 40.44290000000001 seconds - Total Training Time: 8.0 minute/s and 40.44290000000001 seconds
+02/26/2024 02:22:10 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 02:22:10 AM Epoch #31: Average Validation Loss: 0.2380 - Average Validation Pixel Acc: 0.8729 - Average Validation Mean IOU: 0.6098
+02/26/2024 02:22:10 AM 
+02/26/2024 02:22:10 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 02:23:20 AM Epoch 32 - iter 147/1488 - total loss 0.2072 - total mean iou 0.6082 - total pixel acc 0.8941 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.346 Seconds
+02/26/2024 02:24:30 AM Epoch 32 - iter 295/1488 - total loss 0.2052 - total mean iou 0.6083 - total pixel acc 0.8942 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.35 Seconds
+02/26/2024 02:25:41 AM Epoch 32 - iter 443/1488 - total loss 0.2163 - total mean iou 0.6074 - total pixel acc 0.8870 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3504 Seconds
+02/26/2024 02:26:51 AM Epoch 32 - iter 591/1488 - total loss 0.2118 - total mean iou 0.6044 - total pixel acc 0.8921 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3506 Seconds
+02/26/2024 02:28:01 AM Epoch 32 - iter 739/1488 - total loss 0.2131 - total mean iou 0.6001 - total pixel acc 0.8848 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3503 Seconds
+02/26/2024 02:29:11 AM Epoch 32 - iter 887/1488 - total loss 0.2017 - total mean iou 0.6053 - total pixel acc 0.8919 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3503 Seconds
+02/26/2024 02:30:22 AM Epoch 32 - iter 1035/1488 - total loss 0.1994 - total mean iou 0.6080 - total pixel acc 0.8966 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3502 Seconds
+02/26/2024 02:31:32 AM Epoch 32 - iter 1183/1488 - total loss 0.2044 - total mean iou 0.6032 - total pixel acc 0.8855 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3502 Seconds
+02/26/2024 02:32:43 AM Epoch 32 - iter 1331/1488 - total loss 0.1941 - total mean iou 0.6199 - total pixel acc 0.9003 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3504 Seconds
+02/26/2024 02:33:53 AM Epoch 32 - iter 1479/1488 - total loss 0.1993 - total mean iou 0.6083 - total pixel acc 0.8941 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3503 Seconds
+02/26/2024 02:33:57 AM Epoch #32: Average Loss 0.20549324089761384 - Epoch Training Time: 8.0 minute/s and 40.44560000000001 seconds - Total Training Time: 8.0 minute/s and 40.44560000000001 seconds
+02/26/2024 02:36:46 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 02:36:46 AM Epoch #32: Average Validation Loss: 0.2381 - Average Validation Pixel Acc: 0.8729 - Average Validation Mean IOU: 0.6098
+02/26/2024 02:36:46 AM 
+02/26/2024 02:36:46 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 02:37:56 AM Epoch 33 - iter 147/1488 - total loss 0.2064 - total mean iou 0.6081 - total pixel acc 0.8943 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3461 Seconds
+02/26/2024 02:39:07 AM Epoch 33 - iter 295/1488 - total loss 0.2044 - total mean iou 0.6072 - total pixel acc 0.8941 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3501 Seconds
+02/26/2024 02:40:18 AM Epoch 33 - iter 443/1488 - total loss 0.2165 - total mean iou 0.6073 - total pixel acc 0.8872 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3506 Seconds
+02/26/2024 02:41:29 AM Epoch 33 - iter 591/1488 - total loss 0.2107 - total mean iou 0.6048 - total pixel acc 0.8922 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3507 Seconds
+02/26/2024 02:42:39 AM Epoch 33 - iter 739/1488 - total loss 0.2122 - total mean iou 0.6001 - total pixel acc 0.8850 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3506 Seconds
+02/26/2024 02:43:50 AM Epoch 33 - iter 887/1488 - total loss 0.2015 - total mean iou 0.6059 - total pixel acc 0.8922 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3505 Seconds
+02/26/2024 02:45:01 AM Epoch 33 - iter 1035/1488 - total loss 0.1998 - total mean iou 0.6071 - total pixel acc 0.8963 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3504 Seconds
+02/26/2024 02:46:11 AM Epoch 33 - iter 1183/1488 - total loss 0.2037 - total mean iou 0.6035 - total pixel acc 0.8858 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3505 Seconds
+02/26/2024 02:47:22 AM Epoch 33 - iter 1331/1488 - total loss 0.1956 - total mean iou 0.6182 - total pixel acc 0.8996 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3505 Seconds
+02/26/2024 02:48:33 AM Epoch 33 - iter 1479/1488 - total loss 0.1989 - total mean iou 0.6092 - total pixel acc 0.8942 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3503 Seconds
+02/26/2024 02:48:36 AM Epoch #33: Average Loss 0.20523226328234198 - Epoch Training Time: 8.0 minute/s and 40.69479999999999 seconds - Total Training Time: 8.0 minute/s and 40.69479999999999 seconds
+02/26/2024 02:51:26 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 02:51:26 AM Epoch #33: Average Validation Loss: 0.2384 - Average Validation Pixel Acc: 0.8728 - Average Validation Mean IOU: 0.6095
+02/26/2024 02:51:26 AM 
+02/26/2024 02:51:26 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 02:52:36 AM Epoch 34 - iter 147/1488 - total loss 0.2071 - total mean iou 0.6080 - total pixel acc 0.8942 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3461 Seconds
+02/26/2024 02:53:46 AM Epoch 34 - iter 295/1488 - total loss 0.2035 - total mean iou 0.6085 - total pixel acc 0.8945 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.35 Seconds
+02/26/2024 02:54:57 AM Epoch 34 - iter 443/1488 - total loss 0.2169 - total mean iou 0.6068 - total pixel acc 0.8869 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3505 Seconds
+02/26/2024 02:56:07 AM Epoch 34 - iter 591/1488 - total loss 0.2103 - total mean iou 0.6046 - total pixel acc 0.8922 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3505 Seconds
+02/26/2024 02:57:18 AM Epoch 34 - iter 739/1488 - total loss 0.2121 - total mean iou 0.6005 - total pixel acc 0.8850 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3504 Seconds
+02/26/2024 02:58:28 AM Epoch 34 - iter 887/1488 - total loss 0.2015 - total mean iou 0.6061 - total pixel acc 0.8919 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3503 Seconds
+02/26/2024 02:59:38 AM Epoch 34 - iter 1035/1488 - total loss 0.2008 - total mean iou 0.6065 - total pixel acc 0.8960 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3503 Seconds
+02/26/2024 03:00:49 AM Epoch 34 - iter 1183/1488 - total loss 0.2044 - total mean iou 0.6030 - total pixel acc 0.8856 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3502 Seconds
+02/26/2024 03:01:59 AM Epoch 34 - iter 1331/1488 - total loss 0.1953 - total mean iou 0.6193 - total pixel acc 0.8999 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3503 Seconds
+02/26/2024 03:03:09 AM Epoch 34 - iter 1479/1488 - total loss 0.1992 - total mean iou 0.6092 - total pixel acc 0.8942 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3504 Seconds
+02/26/2024 03:03:13 AM Epoch #34: Average Loss 0.20535975784283653 - Epoch Training Time: 8.0 minute/s and 40.504999999999995 seconds - Total Training Time: 8.0 minute/s and 40.504999999999995 seconds
+02/26/2024 03:06:03 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 03:06:03 AM Epoch #34: Average Validation Loss: 0.2381 - Average Validation Pixel Acc: 0.8729 - Average Validation Mean IOU: 0.6099
+02/26/2024 03:06:03 AM 
+02/26/2024 03:06:03 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 03:07:12 AM Epoch 35 - iter 147/1488 - total loss 0.2066 - total mean iou 0.6091 - total pixel acc 0.8944 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3461 Seconds
+02/26/2024 03:08:23 AM Epoch 35 - iter 295/1488 - total loss 0.2050 - total mean iou 0.6066 - total pixel acc 0.8941 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3504 Seconds
+02/26/2024 03:09:33 AM Epoch 35 - iter 443/1488 - total loss 0.2151 - total mean iou 0.6075 - total pixel acc 0.8873 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3505 Seconds
+02/26/2024 03:10:43 AM Epoch 35 - iter 591/1488 - total loss 0.2109 - total mean iou 0.6045 - total pixel acc 0.8921 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3507 Seconds
+02/26/2024 03:11:53 AM Epoch 35 - iter 739/1488 - total loss 0.2122 - total mean iou 0.6003 - total pixel acc 0.8851 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3506 Seconds
+02/26/2024 03:13:03 AM Epoch 35 - iter 887/1488 - total loss 0.2008 - total mean iou 0.6056 - total pixel acc 0.8922 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3505 Seconds
+02/26/2024 03:14:14 AM Epoch 35 - iter 1035/1488 - total loss 0.1997 - total mean iou 0.6079 - total pixel acc 0.8964 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3505 Seconds
+02/26/2024 03:15:24 AM Epoch 35 - iter 1183/1488 - total loss 0.2034 - total mean iou 0.6031 - total pixel acc 0.8859 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3503 Seconds
+02/26/2024 03:16:34 AM Epoch 35 - iter 1331/1488 - total loss 0.1952 - total mean iou 0.6197 - total pixel acc 0.8999 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3505 Seconds
+02/26/2024 03:17:44 AM Epoch 35 - iter 1479/1488 - total loss 0.1984 - total mean iou 0.6094 - total pixel acc 0.8944 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3506 Seconds
+02/26/2024 03:17:48 AM Epoch #35: Average Loss 0.20499824259870797 - Epoch Training Time: 8.0 minute/s and 40.73910000000001 seconds - Total Training Time: 8.0 minute/s and 40.73910000000001 seconds
+02/26/2024 03:20:38 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 03:20:38 AM Epoch #35: Average Validation Loss: 0.2381 - Average Validation Pixel Acc: 0.8729 - Average Validation Mean IOU: 0.6097
+02/26/2024 03:20:38 AM 
+02/26/2024 03:20:38 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 03:21:48 AM Epoch 36 - iter 147/1488 - total loss 0.2076 - total mean iou 0.6083 - total pixel acc 0.8940 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3464 Seconds
+02/26/2024 03:22:58 AM Epoch 36 - iter 295/1488 - total loss 0.2040 - total mean iou 0.6082 - total pixel acc 0.8943 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3501 Seconds
+02/26/2024 03:24:08 AM Epoch 36 - iter 443/1488 - total loss 0.2157 - total mean iou 0.6077 - total pixel acc 0.8872 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3504 Seconds
+02/26/2024 03:25:18 AM Epoch 36 - iter 591/1488 - total loss 0.2114 - total mean iou 0.6040 - total pixel acc 0.8921 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3505 Seconds
+02/26/2024 03:26:28 AM Epoch 36 - iter 739/1488 - total loss 0.2114 - total mean iou 0.6009 - total pixel acc 0.8854 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3504 Seconds
+02/26/2024 03:27:38 AM Epoch 36 - iter 887/1488 - total loss 0.2012 - total mean iou 0.6060 - total pixel acc 0.8919 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3503 Seconds
+02/26/2024 03:28:47 AM Epoch 36 - iter 1035/1488 - total loss 0.2002 - total mean iou 0.6071 - total pixel acc 0.8964 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3504 Seconds
+02/26/2024 03:29:57 AM Epoch 36 - iter 1183/1488 - total loss 0.2043 - total mean iou 0.6031 - total pixel acc 0.8857 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3505 Seconds
+02/26/2024 03:31:07 AM Epoch 36 - iter 1331/1488 - total loss 0.1948 - total mean iou 0.6201 - total pixel acc 0.9000 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3504 Seconds
+02/26/2024 03:32:17 AM Epoch 36 - iter 1479/1488 - total loss 0.1997 - total mean iou 0.6091 - total pixel acc 0.8940 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3503 Seconds
+02/26/2024 03:32:21 AM Epoch #36: Average Loss 0.2052749680024722 - Epoch Training Time: 8.0 minute/s and 40.58680000000004 seconds - Total Training Time: 8.0 minute/s and 40.58680000000004 seconds
+02/26/2024 03:35:09 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 03:35:09 AM Epoch #36: Average Validation Loss: 0.2381 - Average Validation Pixel Acc: 0.8729 - Average Validation Mean IOU: 0.6098
+02/26/2024 03:35:09 AM 
+02/26/2024 03:35:09 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 03:36:19 AM Epoch 37 - iter 147/1488 - total loss 0.2069 - total mean iou 0.6083 - total pixel acc 0.8942 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.346 Seconds
+02/26/2024 03:37:29 AM Epoch 37 - iter 295/1488 - total loss 0.2048 - total mean iou 0.6083 - total pixel acc 0.8944 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3502 Seconds
+02/26/2024 03:38:39 AM Epoch 37 - iter 443/1488 - total loss 0.2170 - total mean iou 0.6063 - total pixel acc 0.8868 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3508 Seconds
+02/26/2024 03:39:49 AM Epoch 37 - iter 591/1488 - total loss 0.2121 - total mean iou 0.6041 - total pixel acc 0.8919 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3507 Seconds
+02/26/2024 03:40:59 AM Epoch 37 - iter 739/1488 - total loss 0.2118 - total mean iou 0.6008 - total pixel acc 0.8852 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3506 Seconds
+02/26/2024 03:42:09 AM Epoch 37 - iter 887/1488 - total loss 0.2011 - total mean iou 0.6058 - total pixel acc 0.8921 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3505 Seconds
+02/26/2024 03:43:19 AM Epoch 37 - iter 1035/1488 - total loss 0.2001 - total mean iou 0.6075 - total pixel acc 0.8962 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3505 Seconds
+02/26/2024 03:44:30 AM Epoch 37 - iter 1183/1488 - total loss 0.2046 - total mean iou 0.6027 - total pixel acc 0.8854 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3505 Seconds
+02/26/2024 03:45:40 AM Epoch 37 - iter 1331/1488 - total loss 0.1942 - total mean iou 0.6207 - total pixel acc 0.9004 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3504 Seconds
+02/26/2024 03:46:50 AM Epoch 37 - iter 1479/1488 - total loss 0.2001 - total mean iou 0.6090 - total pixel acc 0.8938 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3505 Seconds
+02/26/2024 03:46:53 AM Epoch #37: Average Loss 0.20548743665999464 - Epoch Training Time: 8.0 minute/s and 40.74770000000001 seconds - Total Training Time: 8.0 minute/s and 40.74770000000001 seconds
+02/26/2024 03:49:41 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 03:49:41 AM Epoch #37: Average Validation Loss: 0.2381 - Average Validation Pixel Acc: 0.8729 - Average Validation Mean IOU: 0.6098
+02/26/2024 03:49:41 AM 
+02/26/2024 03:49:41 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 03:50:50 AM Epoch 38 - iter 147/1488 - total loss 0.2072 - total mean iou 0.6074 - total pixel acc 0.8941 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3461 Seconds
+02/26/2024 03:52:01 AM Epoch 38 - iter 295/1488 - total loss 0.2043 - total mean iou 0.6076 - total pixel acc 0.8941 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3502 Seconds
+02/26/2024 03:53:11 AM Epoch 38 - iter 443/1488 - total loss 0.2152 - total mean iou 0.6078 - total pixel acc 0.8874 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3504 Seconds
+02/26/2024 03:54:21 AM Epoch 38 - iter 591/1488 - total loss 0.2110 - total mean iou 0.6047 - total pixel acc 0.8922 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3505 Seconds
+02/26/2024 03:55:31 AM Epoch 38 - iter 739/1488 - total loss 0.2119 - total mean iou 0.6002 - total pixel acc 0.8851 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3504 Seconds
+02/26/2024 03:56:41 AM Epoch 38 - iter 887/1488 - total loss 0.2012 - total mean iou 0.6057 - total pixel acc 0.8920 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3503 Seconds
+02/26/2024 03:57:52 AM Epoch 38 - iter 1035/1488 - total loss 0.1998 - total mean iou 0.6069 - total pixel acc 0.8964 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3502 Seconds
+02/26/2024 03:59:02 AM Epoch 38 - iter 1183/1488 - total loss 0.2036 - total mean iou 0.6037 - total pixel acc 0.8857 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3503 Seconds
+02/26/2024 04:00:12 AM Epoch 38 - iter 1331/1488 - total loss 0.1947 - total mean iou 0.6200 - total pixel acc 0.9002 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3501 Seconds
+02/26/2024 04:01:22 AM Epoch 38 - iter 1479/1488 - total loss 0.1992 - total mean iou 0.6096 - total pixel acc 0.8941 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3504 Seconds
+02/26/2024 04:01:26 AM Epoch #38: Average Loss 0.20506683947838922 - Epoch Training Time: 8.0 minute/s and 40.47580000000005 seconds - Total Training Time: 8.0 minute/s and 40.47580000000005 seconds
+02/26/2024 04:04:16 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 04:04:16 AM Epoch #38: Average Validation Loss: 0.2380 - Average Validation Pixel Acc: 0.8729 - Average Validation Mean IOU: 0.6099
+02/26/2024 04:04:16 AM 
+02/26/2024 04:04:16 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 04:05:26 AM Epoch 39 - iter 147/1488 - total loss 0.2066 - total mean iou 0.6081 - total pixel acc 0.8943 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3462 Seconds
+02/26/2024 04:06:36 AM Epoch 39 - iter 295/1488 - total loss 0.2049 - total mean iou 0.6071 - total pixel acc 0.8940 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3502 Seconds
+02/26/2024 04:07:46 AM Epoch 39 - iter 443/1488 - total loss 0.2158 - total mean iou 0.6075 - total pixel acc 0.8872 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3504 Seconds
+02/26/2024 04:08:56 AM Epoch 39 - iter 591/1488 - total loss 0.2112 - total mean iou 0.6041 - total pixel acc 0.8920 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3505 Seconds
+02/26/2024 04:10:06 AM Epoch 39 - iter 739/1488 - total loss 0.2114 - total mean iou 0.6004 - total pixel acc 0.8854 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3505 Seconds
+02/26/2024 04:11:16 AM Epoch 39 - iter 887/1488 - total loss 0.2023 - total mean iou 0.6053 - total pixel acc 0.8917 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3505 Seconds
+02/26/2024 04:12:26 AM Epoch 39 - iter 1035/1488 - total loss 0.2000 - total mean iou 0.6068 - total pixel acc 0.8961 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3502 Seconds
+02/26/2024 04:13:36 AM Epoch 39 - iter 1183/1488 - total loss 0.2033 - total mean iou 0.6032 - total pixel acc 0.8860 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3503 Seconds
+02/26/2024 04:14:46 AM Epoch 39 - iter 1331/1488 - total loss 0.1939 - total mean iou 0.6203 - total pixel acc 0.9004 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3502 Seconds
+02/26/2024 04:15:56 AM Epoch 39 - iter 1479/1488 - total loss 0.1998 - total mean iou 0.6085 - total pixel acc 0.8939 - UNet Decoder lr: 1.00e-06 - UNet Classifier lr: 1.00e-05 - secs/batch 0.3503 Seconds
+02/26/2024 04:15:59 AM Epoch #39: Average Loss 0.20519208007301853 - Epoch Training Time: 8.0 minute/s and 40.53380000000004 seconds - Total Training Time: 8.0 minute/s and 40.53380000000004 seconds
+02/26/2024 04:18:46 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 04:18:46 AM Epoch #39: Average Validation Loss: 0.2379 - Average Validation Pixel Acc: 0.8729 - Average Validation Mean IOU: 0.6100
+02/26/2024 04:18:46 AM 
+02/26/2024 04:18:47 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 04:19:56 AM Epoch 40 - iter 147/1488 - total loss 0.2064 - total mean iou 0.6091 - total pixel acc 0.8945 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3461 Seconds
+02/26/2024 04:21:06 AM Epoch 40 - iter 295/1488 - total loss 0.2047 - total mean iou 0.6071 - total pixel acc 0.8941 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3501 Seconds
+02/26/2024 04:22:17 AM Epoch 40 - iter 443/1488 - total loss 0.2160 - total mean iou 0.6072 - total pixel acc 0.8871 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3505 Seconds
+02/26/2024 04:23:27 AM Epoch 40 - iter 591/1488 - total loss 0.2109 - total mean iou 0.6045 - total pixel acc 0.8924 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3505 Seconds
+02/26/2024 04:24:37 AM Epoch 40 - iter 739/1488 - total loss 0.2121 - total mean iou 0.6002 - total pixel acc 0.8849 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3504 Seconds
+02/26/2024 04:25:47 AM Epoch 40 - iter 887/1488 - total loss 0.2017 - total mean iou 0.6052 - total pixel acc 0.8918 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3504 Seconds
+02/26/2024 04:26:57 AM Epoch 40 - iter 1035/1488 - total loss 0.1994 - total mean iou 0.6076 - total pixel acc 0.8964 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3502 Seconds
+02/26/2024 04:28:08 AM Epoch 40 - iter 1183/1488 - total loss 0.2030 - total mean iou 0.6031 - total pixel acc 0.8861 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3502 Seconds
+02/26/2024 04:29:18 AM Epoch 40 - iter 1331/1488 - total loss 0.1941 - total mean iou 0.6193 - total pixel acc 0.9001 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3503 Seconds
+02/26/2024 04:30:28 AM Epoch 40 - iter 1479/1488 - total loss 0.1988 - total mean iou 0.6095 - total pixel acc 0.8942 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3503 Seconds
+02/26/2024 04:30:31 AM Epoch #40: Average Loss 0.20496738700556658 - Epoch Training Time: 8.0 minute/s and 40.48090000000002 seconds - Total Training Time: 8.0 minute/s and 40.48090000000002 seconds
+02/26/2024 04:33:21 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 04:33:21 AM Epoch #40: Average Validation Loss: 0.2378 - Average Validation Pixel Acc: 0.8729 - Average Validation Mean IOU: 0.6099
+02/26/2024 04:33:21 AM 
+02/26/2024 04:33:21 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 04:34:31 AM Epoch 41 - iter 147/1488 - total loss 0.2070 - total mean iou 0.6085 - total pixel acc 0.8942 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3463 Seconds
+02/26/2024 04:35:41 AM Epoch 41 - iter 295/1488 - total loss 0.2049 - total mean iou 0.6065 - total pixel acc 0.8941 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3501 Seconds
+02/26/2024 04:36:51 AM Epoch 41 - iter 443/1488 - total loss 0.2161 - total mean iou 0.6080 - total pixel acc 0.8873 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3504 Seconds
+02/26/2024 04:38:01 AM Epoch 41 - iter 591/1488 - total loss 0.2112 - total mean iou 0.6041 - total pixel acc 0.8923 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3508 Seconds
+02/26/2024 04:39:12 AM Epoch 41 - iter 739/1488 - total loss 0.2125 - total mean iou 0.6007 - total pixel acc 0.8850 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3507 Seconds
+02/26/2024 04:40:22 AM Epoch 41 - iter 887/1488 - total loss 0.2021 - total mean iou 0.6053 - total pixel acc 0.8919 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3506 Seconds
+02/26/2024 04:41:32 AM Epoch 41 - iter 1035/1488 - total loss 0.1999 - total mean iou 0.6075 - total pixel acc 0.8964 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3506 Seconds
+02/26/2024 04:42:43 AM Epoch 41 - iter 1183/1488 - total loss 0.2035 - total mean iou 0.6033 - total pixel acc 0.8860 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3506 Seconds
+02/26/2024 04:43:53 AM Epoch 41 - iter 1331/1488 - total loss 0.1942 - total mean iou 0.6203 - total pixel acc 0.9003 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3505 Seconds
+02/26/2024 04:45:03 AM Epoch 41 - iter 1479/1488 - total loss 0.1992 - total mean iou 0.6090 - total pixel acc 0.8942 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3505 Seconds
+02/26/2024 04:45:07 AM Epoch #41: Average Loss 0.20531968527563638 - Epoch Training Time: 8.0 minute/s and 40.79499999999996 seconds - Total Training Time: 8.0 minute/s and 40.79499999999996 seconds
+02/26/2024 04:47:56 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 04:47:56 AM Epoch #41: Average Validation Loss: 0.2377 - Average Validation Pixel Acc: 0.8730 - Average Validation Mean IOU: 0.6100
+02/26/2024 04:47:56 AM 
+02/26/2024 04:47:56 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 04:49:06 AM Epoch 42 - iter 147/1488 - total loss 0.2065 - total mean iou 0.6088 - total pixel acc 0.8943 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3462 Seconds
+02/26/2024 04:50:15 AM Epoch 42 - iter 295/1488 - total loss 0.2034 - total mean iou 0.6079 - total pixel acc 0.8944 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3503 Seconds
+02/26/2024 04:51:25 AM Epoch 42 - iter 443/1488 - total loss 0.2153 - total mean iou 0.6067 - total pixel acc 0.8873 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3505 Seconds
+02/26/2024 04:52:35 AM Epoch 42 - iter 591/1488 - total loss 0.2104 - total mean iou 0.6049 - total pixel acc 0.8924 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3507 Seconds
+02/26/2024 04:53:45 AM Epoch 42 - iter 739/1488 - total loss 0.2115 - total mean iou 0.6002 - total pixel acc 0.8852 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3506 Seconds
+02/26/2024 04:54:55 AM Epoch 42 - iter 887/1488 - total loss 0.2003 - total mean iou 0.6049 - total pixel acc 0.8922 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3505 Seconds
+02/26/2024 04:56:05 AM Epoch 42 - iter 1035/1488 - total loss 0.2000 - total mean iou 0.6075 - total pixel acc 0.8964 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3504 Seconds
+02/26/2024 04:57:15 AM Epoch 42 - iter 1183/1488 - total loss 0.2035 - total mean iou 0.6036 - total pixel acc 0.8860 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3504 Seconds
+02/26/2024 04:58:25 AM Epoch 42 - iter 1331/1488 - total loss 0.1944 - total mean iou 0.6196 - total pixel acc 0.9000 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3504 Seconds
+02/26/2024 04:59:35 AM Epoch 42 - iter 1479/1488 - total loss 0.1993 - total mean iou 0.6090 - total pixel acc 0.8942 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3504 Seconds
+02/26/2024 04:59:38 AM Epoch #42: Average Loss 0.20469342010916883 - Epoch Training Time: 8.0 minute/s and 40.664800000000014 seconds - Total Training Time: 8.0 minute/s and 40.664800000000014 seconds
+02/26/2024 05:02:25 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 05:02:25 AM Epoch #42: Average Validation Loss: 0.2379 - Average Validation Pixel Acc: 0.8729 - Average Validation Mean IOU: 0.6098
+02/26/2024 05:02:25 AM 
+02/26/2024 05:02:25 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 05:03:35 AM Epoch 43 - iter 147/1488 - total loss 0.2065 - total mean iou 0.6088 - total pixel acc 0.8943 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3459 Seconds
+02/26/2024 05:04:46 AM Epoch 43 - iter 295/1488 - total loss 0.2038 - total mean iou 0.6080 - total pixel acc 0.8946 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.35 Seconds
+02/26/2024 05:05:56 AM Epoch 43 - iter 443/1488 - total loss 0.2165 - total mean iou 0.6073 - total pixel acc 0.8870 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3504 Seconds
+02/26/2024 05:07:07 AM Epoch 43 - iter 591/1488 - total loss 0.2114 - total mean iou 0.6039 - total pixel acc 0.8919 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3506 Seconds
+02/26/2024 05:08:18 AM Epoch 43 - iter 739/1488 - total loss 0.2116 - total mean iou 0.6006 - total pixel acc 0.8850 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3504 Seconds
+02/26/2024 05:09:28 AM Epoch 43 - iter 887/1488 - total loss 0.2009 - total mean iou 0.6056 - total pixel acc 0.8922 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3504 Seconds
+02/26/2024 05:10:39 AM Epoch 43 - iter 1035/1488 - total loss 0.2002 - total mean iou 0.6072 - total pixel acc 0.8964 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3502 Seconds
+02/26/2024 05:11:49 AM Epoch 43 - iter 1183/1488 - total loss 0.2044 - total mean iou 0.6032 - total pixel acc 0.8856 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3503 Seconds
+02/26/2024 05:13:00 AM Epoch 43 - iter 1331/1488 - total loss 0.1938 - total mean iou 0.6212 - total pixel acc 0.9005 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3503 Seconds
+02/26/2024 05:14:11 AM Epoch 43 - iter 1479/1488 - total loss 0.1998 - total mean iou 0.6091 - total pixel acc 0.8940 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3504 Seconds
+02/26/2024 05:14:14 AM Epoch #43: Average Loss 0.20513308661118632 - Epoch Training Time: 8.0 minute/s and 40.46130000000005 seconds - Total Training Time: 8.0 minute/s and 40.46130000000005 seconds
+02/26/2024 05:17:01 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 05:17:01 AM Epoch #43: Average Validation Loss: 0.2378 - Average Validation Pixel Acc: 0.8729 - Average Validation Mean IOU: 0.6099
+02/26/2024 05:17:01 AM 
+02/26/2024 05:17:01 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 05:18:11 AM Epoch 44 - iter 147/1488 - total loss 0.2069 - total mean iou 0.6089 - total pixel acc 0.8944 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3467 Seconds
+02/26/2024 05:19:21 AM Epoch 44 - iter 295/1488 - total loss 0.2043 - total mean iou 0.6072 - total pixel acc 0.8943 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3501 Seconds
+02/26/2024 05:20:31 AM Epoch 44 - iter 443/1488 - total loss 0.2161 - total mean iou 0.6074 - total pixel acc 0.8871 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3508 Seconds
+02/26/2024 05:21:42 AM Epoch 44 - iter 591/1488 - total loss 0.2106 - total mean iou 0.6055 - total pixel acc 0.8925 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3507 Seconds
+02/26/2024 05:22:52 AM Epoch 44 - iter 739/1488 - total loss 0.2123 - total mean iou 0.6005 - total pixel acc 0.8851 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3505 Seconds
+02/26/2024 05:24:02 AM Epoch 44 - iter 887/1488 - total loss 0.2019 - total mean iou 0.6052 - total pixel acc 0.8919 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3505 Seconds
+02/26/2024 05:25:12 AM Epoch 44 - iter 1035/1488 - total loss 0.1994 - total mean iou 0.6079 - total pixel acc 0.8966 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3505 Seconds
+02/26/2024 05:26:22 AM Epoch 44 - iter 1183/1488 - total loss 0.2026 - total mean iou 0.6036 - total pixel acc 0.8862 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3504 Seconds
+02/26/2024 05:27:33 AM Epoch 44 - iter 1331/1488 - total loss 0.1944 - total mean iou 0.6204 - total pixel acc 0.9002 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3506 Seconds
+02/26/2024 05:28:43 AM Epoch 44 - iter 1479/1488 - total loss 0.2001 - total mean iou 0.6091 - total pixel acc 0.8941 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3506 Seconds
+02/26/2024 05:28:47 AM Epoch #44: Average Loss 0.2050597053722188 - Epoch Training Time: 8.0 minute/s and 40.872299999999996 seconds - Total Training Time: 8.0 minute/s and 40.872299999999996 seconds
+02/26/2024 05:31:35 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 05:31:35 AM Epoch #44: Average Validation Loss: 0.2378 - Average Validation Pixel Acc: 0.8729 - Average Validation Mean IOU: 0.6100
+02/26/2024 05:31:35 AM 
+02/26/2024 05:31:35 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 05:32:45 AM Epoch 45 - iter 147/1488 - total loss 0.2059 - total mean iou 0.6086 - total pixel acc 0.8945 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3471 Seconds
+02/26/2024 05:33:55 AM Epoch 45 - iter 295/1488 - total loss 0.2047 - total mean iou 0.6076 - total pixel acc 0.8942 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3505 Seconds
+02/26/2024 05:35:06 AM Epoch 45 - iter 443/1488 - total loss 0.2163 - total mean iou 0.6076 - total pixel acc 0.8872 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3508 Seconds
+02/26/2024 05:36:16 AM Epoch 45 - iter 591/1488 - total loss 0.2114 - total mean iou 0.6040 - total pixel acc 0.8922 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3507 Seconds
+02/26/2024 05:37:26 AM Epoch 45 - iter 739/1488 - total loss 0.2113 - total mean iou 0.6008 - total pixel acc 0.8853 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3505 Seconds
+02/26/2024 05:38:36 AM Epoch 45 - iter 887/1488 - total loss 0.2007 - total mean iou 0.6056 - total pixel acc 0.8920 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3507 Seconds
+02/26/2024 05:39:46 AM Epoch 45 - iter 1035/1488 - total loss 0.2004 - total mean iou 0.6069 - total pixel acc 0.8962 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3505 Seconds
+02/26/2024 05:40:56 AM Epoch 45 - iter 1183/1488 - total loss 0.2036 - total mean iou 0.6035 - total pixel acc 0.8859 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3506 Seconds
+02/26/2024 05:42:07 AM Epoch 45 - iter 1331/1488 - total loss 0.1940 - total mean iou 0.6202 - total pixel acc 0.9003 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3506 Seconds
+02/26/2024 05:43:17 AM Epoch 45 - iter 1479/1488 - total loss 0.1988 - total mean iou 0.6088 - total pixel acc 0.8943 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3505 Seconds
+02/26/2024 05:43:20 AM Epoch #45: Average Loss 0.20496653024888328 - Epoch Training Time: 8.0 minute/s and 41.00909999999999 seconds - Total Training Time: 8.0 minute/s and 41.00909999999999 seconds
+02/26/2024 05:46:07 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 05:46:07 AM Epoch #45: Average Validation Loss: 0.2380 - Average Validation Pixel Acc: 0.8729 - Average Validation Mean IOU: 0.6099
+02/26/2024 05:46:07 AM 
+02/26/2024 05:46:07 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 05:47:17 AM Epoch 46 - iter 147/1488 - total loss 0.2061 - total mean iou 0.6089 - total pixel acc 0.8945 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3481 Seconds
+02/26/2024 05:48:27 AM Epoch 46 - iter 295/1488 - total loss 0.2041 - total mean iou 0.6079 - total pixel acc 0.8944 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3507 Seconds
+02/26/2024 05:49:37 AM Epoch 46 - iter 443/1488 - total loss 0.2166 - total mean iou 0.6067 - total pixel acc 0.8870 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3508 Seconds
+02/26/2024 05:50:47 AM Epoch 46 - iter 591/1488 - total loss 0.2114 - total mean iou 0.6049 - total pixel acc 0.8920 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3507 Seconds
+02/26/2024 05:51:57 AM Epoch 46 - iter 739/1488 - total loss 0.2103 - total mean iou 0.6012 - total pixel acc 0.8856 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3506 Seconds
+02/26/2024 05:53:07 AM Epoch 46 - iter 887/1488 - total loss 0.2014 - total mean iou 0.6057 - total pixel acc 0.8920 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3508 Seconds
+02/26/2024 05:54:17 AM Epoch 46 - iter 1035/1488 - total loss 0.1997 - total mean iou 0.6077 - total pixel acc 0.8964 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3506 Seconds
+02/26/2024 05:55:27 AM Epoch 46 - iter 1183/1488 - total loss 0.2029 - total mean iou 0.6033 - total pixel acc 0.8861 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3507 Seconds
+02/26/2024 05:56:37 AM Epoch 46 - iter 1331/1488 - total loss 0.1945 - total mean iou 0.6200 - total pixel acc 0.9001 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3506 Seconds
+02/26/2024 05:57:47 AM Epoch 46 - iter 1479/1488 - total loss 0.1986 - total mean iou 0.6091 - total pixel acc 0.8943 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3507 Seconds
+02/26/2024 05:57:50 AM Epoch #46: Average Loss 0.2048135734443623 - Epoch Training Time: 8.0 minute/s and 41.28610000000003 seconds - Total Training Time: 8.0 minute/s and 41.28610000000003 seconds
+02/26/2024 06:00:39 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 06:00:39 AM Epoch #46: Average Validation Loss: 0.2380 - Average Validation Pixel Acc: 0.8729 - Average Validation Mean IOU: 0.6100
+02/26/2024 06:00:39 AM 
+02/26/2024 06:00:39 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 06:01:48 AM Epoch 47 - iter 147/1488 - total loss 0.2069 - total mean iou 0.6084 - total pixel acc 0.8942 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.348 Seconds
+02/26/2024 06:02:58 AM Epoch 47 - iter 295/1488 - total loss 0.2041 - total mean iou 0.6069 - total pixel acc 0.8943 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3508 Seconds
+02/26/2024 06:04:08 AM Epoch 47 - iter 443/1488 - total loss 0.2152 - total mean iou 0.6081 - total pixel acc 0.8873 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3512 Seconds
+02/26/2024 06:05:19 AM Epoch 47 - iter 591/1488 - total loss 0.2106 - total mean iou 0.6045 - total pixel acc 0.8923 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.351 Seconds
+02/26/2024 06:06:29 AM Epoch 47 - iter 739/1488 - total loss 0.2118 - total mean iou 0.6010 - total pixel acc 0.8853 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3509 Seconds
+02/26/2024 06:07:39 AM Epoch 47 - iter 887/1488 - total loss 0.2000 - total mean iou 0.6061 - total pixel acc 0.8924 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3509 Seconds
+02/26/2024 06:08:48 AM Epoch 47 - iter 1035/1488 - total loss 0.1995 - total mean iou 0.6074 - total pixel acc 0.8965 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3507 Seconds
+02/26/2024 06:09:58 AM Epoch 47 - iter 1183/1488 - total loss 0.2031 - total mean iou 0.6036 - total pixel acc 0.8861 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3503 Seconds
+02/26/2024 06:11:08 AM Epoch 47 - iter 1331/1488 - total loss 0.1944 - total mean iou 0.6204 - total pixel acc 0.9003 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3505 Seconds
+02/26/2024 06:12:18 AM Epoch 47 - iter 1479/1488 - total loss 0.1996 - total mean iou 0.6088 - total pixel acc 0.8942 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3505 Seconds
+02/26/2024 06:12:22 AM Epoch #47: Average Loss 0.20476850708045305 - Epoch Training Time: 8.0 minute/s and 41.336400000000026 seconds - Total Training Time: 8.0 minute/s and 41.336400000000026 seconds
+02/26/2024 06:15:12 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 06:15:12 AM Epoch #47: Average Validation Loss: 0.2378 - Average Validation Pixel Acc: 0.8729 - Average Validation Mean IOU: 0.6100
+02/26/2024 06:15:12 AM 
+02/26/2024 06:15:12 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 06:16:21 AM Epoch 48 - iter 147/1488 - total loss 0.2064 - total mean iou 0.6088 - total pixel acc 0.8943 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3484 Seconds
+02/26/2024 06:17:31 AM Epoch 48 - iter 295/1488 - total loss 0.2041 - total mean iou 0.6079 - total pixel acc 0.8943 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3506 Seconds
+02/26/2024 06:18:41 AM Epoch 48 - iter 443/1488 - total loss 0.2150 - total mean iou 0.6082 - total pixel acc 0.8874 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3511 Seconds
+02/26/2024 06:19:51 AM Epoch 48 - iter 591/1488 - total loss 0.2105 - total mean iou 0.6044 - total pixel acc 0.8923 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3511 Seconds
+02/26/2024 06:21:01 AM Epoch 48 - iter 739/1488 - total loss 0.2115 - total mean iou 0.6014 - total pixel acc 0.8854 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3511 Seconds
+02/26/2024 06:22:11 AM Epoch 48 - iter 887/1488 - total loss 0.2005 - total mean iou 0.6050 - total pixel acc 0.8921 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3509 Seconds
+02/26/2024 06:23:21 AM Epoch 48 - iter 1035/1488 - total loss 0.1997 - total mean iou 0.6074 - total pixel acc 0.8962 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3506 Seconds
+02/26/2024 06:24:31 AM Epoch 48 - iter 1183/1488 - total loss 0.2039 - total mean iou 0.6032 - total pixel acc 0.8857 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3504 Seconds
+02/26/2024 06:25:41 AM Epoch 48 - iter 1331/1488 - total loss 0.1938 - total mean iou 0.6205 - total pixel acc 0.9004 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3505 Seconds
+02/26/2024 06:26:51 AM Epoch 48 - iter 1479/1488 - total loss 0.1995 - total mean iou 0.6083 - total pixel acc 0.8940 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3505 Seconds
+02/26/2024 06:26:55 AM Epoch #48: Average Loss 0.2047402215070061 - Epoch Training Time: 8.0 minute/s and 41.392799999999966 seconds - Total Training Time: 8.0 minute/s and 41.392799999999966 seconds
+02/26/2024 06:29:41 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 06:29:41 AM Epoch #48: Average Validation Loss: 0.2378 - Average Validation Pixel Acc: 0.8730 - Average Validation Mean IOU: 0.6101
+02/26/2024 06:29:41 AM 
+02/26/2024 06:29:41 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 06:30:51 AM Epoch 49 - iter 147/1488 - total loss 0.2062 - total mean iou 0.6083 - total pixel acc 0.8943 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3484 Seconds
+02/26/2024 06:32:02 AM Epoch 49 - iter 295/1488 - total loss 0.2041 - total mean iou 0.6086 - total pixel acc 0.8943 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3506 Seconds
+02/26/2024 06:33:12 AM Epoch 49 - iter 443/1488 - total loss 0.2163 - total mean iou 0.6077 - total pixel acc 0.8872 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3508 Seconds
+02/26/2024 06:34:22 AM Epoch 49 - iter 591/1488 - total loss 0.2106 - total mean iou 0.6047 - total pixel acc 0.8923 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3508 Seconds
+02/26/2024 06:35:33 AM Epoch 49 - iter 739/1488 - total loss 0.2114 - total mean iou 0.6006 - total pixel acc 0.8852 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3507 Seconds
+02/26/2024 06:36:43 AM Epoch 49 - iter 887/1488 - total loss 0.2008 - total mean iou 0.6058 - total pixel acc 0.8922 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3507 Seconds
+02/26/2024 06:37:53 AM Epoch 49 - iter 1035/1488 - total loss 0.2000 - total mean iou 0.6071 - total pixel acc 0.8965 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3506 Seconds
+02/26/2024 06:39:04 AM Epoch 49 - iter 1183/1488 - total loss 0.2028 - total mean iou 0.6035 - total pixel acc 0.8861 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3507 Seconds
+02/26/2024 06:40:14 AM Epoch 49 - iter 1331/1488 - total loss 0.1940 - total mean iou 0.6198 - total pixel acc 0.9003 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3506 Seconds
+02/26/2024 06:41:24 AM Epoch 49 - iter 1479/1488 - total loss 0.1991 - total mean iou 0.6088 - total pixel acc 0.8942 - UNet Decoder lr: 1.00e-07 - UNet Classifier lr: 1.00e-06 - secs/batch 0.3506 Seconds
+02/26/2024 06:41:28 AM Epoch #49: Average Loss 0.20476925799182505 - Epoch Training Time: 8.0 minute/s and 41.32460000000003 seconds - Total Training Time: 8.0 minute/s and 41.32460000000003 seconds
+02/26/2024 06:44:15 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 06:44:15 AM Epoch #49: Average Validation Loss: 0.2381 - Average Validation Pixel Acc: 0.8729 - Average Validation Mean IOU: 0.6098
+02/26/2024 06:44:15 AM 
+02/26/2024 06:44:15 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 06:45:25 AM Epoch 50 - iter 147/1488 - total loss 0.2070 - total mean iou 0.6081 - total pixel acc 0.8942 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3484 Seconds
+02/26/2024 06:46:35 AM Epoch 50 - iter 295/1488 - total loss 0.2041 - total mean iou 0.6077 - total pixel acc 0.8941 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3508 Seconds
+02/26/2024 06:47:45 AM Epoch 50 - iter 443/1488 - total loss 0.2161 - total mean iou 0.6083 - total pixel acc 0.8873 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3508 Seconds
+02/26/2024 06:48:55 AM Epoch 50 - iter 591/1488 - total loss 0.2100 - total mean iou 0.6053 - total pixel acc 0.8926 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3507 Seconds
+02/26/2024 06:50:06 AM Epoch 50 - iter 739/1488 - total loss 0.2115 - total mean iou 0.6007 - total pixel acc 0.8854 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3508 Seconds
+02/26/2024 06:51:16 AM Epoch 50 - iter 887/1488 - total loss 0.2008 - total mean iou 0.6059 - total pixel acc 0.8922 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3506 Seconds
+02/26/2024 06:52:26 AM Epoch 50 - iter 1035/1488 - total loss 0.1998 - total mean iou 0.6074 - total pixel acc 0.8963 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3506 Seconds
+02/26/2024 06:53:36 AM Epoch 50 - iter 1183/1488 - total loss 0.2025 - total mean iou 0.6042 - total pixel acc 0.8862 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3506 Seconds
+02/26/2024 06:54:46 AM Epoch 50 - iter 1331/1488 - total loss 0.1939 - total mean iou 0.6201 - total pixel acc 0.9003 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3506 Seconds
+02/26/2024 06:55:56 AM Epoch 50 - iter 1479/1488 - total loss 0.1992 - total mean iou 0.6096 - total pixel acc 0.8942 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3505 Seconds
+02/26/2024 06:56:00 AM Epoch #50: Average Loss 0.2047418510361064 - Epoch Training Time: 8.0 minute/s and 41.307500000000005 seconds - Total Training Time: 8.0 minute/s and 41.307500000000005 seconds
+02/26/2024 06:58:49 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 06:58:49 AM Epoch #50: Average Validation Loss: 0.2379 - Average Validation Pixel Acc: 0.8729 - Average Validation Mean IOU: 0.6100
+02/26/2024 06:58:49 AM 
+02/26/2024 06:58:49 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 06:59:59 AM Epoch 51 - iter 147/1488 - total loss 0.2073 - total mean iou 0.6080 - total pixel acc 0.8941 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3482 Seconds
+02/26/2024 07:01:09 AM Epoch 51 - iter 295/1488 - total loss 0.2049 - total mean iou 0.6073 - total pixel acc 0.8941 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3506 Seconds
+02/26/2024 07:02:19 AM Epoch 51 - iter 443/1488 - total loss 0.2156 - total mean iou 0.6076 - total pixel acc 0.8873 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3505 Seconds
+02/26/2024 07:03:29 AM Epoch 51 - iter 591/1488 - total loss 0.2112 - total mean iou 0.6038 - total pixel acc 0.8921 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3505 Seconds
+02/26/2024 07:04:39 AM Epoch 51 - iter 739/1488 - total loss 0.2115 - total mean iou 0.6010 - total pixel acc 0.8854 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3504 Seconds
+02/26/2024 07:05:49 AM Epoch 51 - iter 887/1488 - total loss 0.2003 - total mean iou 0.6055 - total pixel acc 0.8924 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3502 Seconds
+02/26/2024 07:06:59 AM Epoch 51 - iter 1035/1488 - total loss 0.2000 - total mean iou 0.6072 - total pixel acc 0.8962 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3503 Seconds
+02/26/2024 07:08:09 AM Epoch 51 - iter 1183/1488 - total loss 0.2033 - total mean iou 0.6029 - total pixel acc 0.8859 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3503 Seconds
+02/26/2024 07:09:19 AM Epoch 51 - iter 1331/1488 - total loss 0.1948 - total mean iou 0.6200 - total pixel acc 0.9001 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3505 Seconds
+02/26/2024 07:10:29 AM Epoch 51 - iter 1479/1488 - total loss 0.1994 - total mean iou 0.6088 - total pixel acc 0.8940 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3503 Seconds
+02/26/2024 07:10:33 AM Epoch #51: Average Loss 0.20508439148405708 - Epoch Training Time: 8.0 minute/s and 40.88930000000005 seconds - Total Training Time: 8.0 minute/s and 40.88930000000005 seconds
+02/26/2024 07:13:19 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 07:13:19 AM Epoch #51: Average Validation Loss: 0.2380 - Average Validation Pixel Acc: 0.8729 - Average Validation Mean IOU: 0.6100
+02/26/2024 07:13:19 AM 
+02/26/2024 07:13:19 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 07:14:29 AM Epoch 52 - iter 147/1488 - total loss 0.2061 - total mean iou 0.6091 - total pixel acc 0.8945 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3478 Seconds
+02/26/2024 07:15:39 AM Epoch 52 - iter 295/1488 - total loss 0.2047 - total mean iou 0.6082 - total pixel acc 0.8942 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3506 Seconds
+02/26/2024 07:16:49 AM Epoch 52 - iter 443/1488 - total loss 0.2155 - total mean iou 0.6077 - total pixel acc 0.8875 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3508 Seconds
+02/26/2024 07:18:00 AM Epoch 52 - iter 591/1488 - total loss 0.2113 - total mean iou 0.6045 - total pixel acc 0.8920 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3507 Seconds
+02/26/2024 07:19:10 AM Epoch 52 - iter 739/1488 - total loss 0.2117 - total mean iou 0.6016 - total pixel acc 0.8854 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3507 Seconds
+02/26/2024 07:20:20 AM Epoch 52 - iter 887/1488 - total loss 0.2009 - total mean iou 0.6063 - total pixel acc 0.8923 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3506 Seconds
+02/26/2024 07:21:30 AM Epoch 52 - iter 1035/1488 - total loss 0.2000 - total mean iou 0.6070 - total pixel acc 0.8962 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3505 Seconds
+02/26/2024 07:22:40 AM Epoch 52 - iter 1183/1488 - total loss 0.2033 - total mean iou 0.6040 - total pixel acc 0.8858 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3505 Seconds
+02/26/2024 07:23:50 AM Epoch 52 - iter 1331/1488 - total loss 0.1943 - total mean iou 0.6191 - total pixel acc 0.9002 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3505 Seconds
+02/26/2024 07:25:00 AM Epoch 52 - iter 1479/1488 - total loss 0.1998 - total mean iou 0.6086 - total pixel acc 0.8938 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3505 Seconds
+02/26/2024 07:25:04 AM Epoch #52: Average Loss 0.20499096166903294 - Epoch Training Time: 8.0 minute/s and 41.12059999999997 seconds - Total Training Time: 8.0 minute/s and 41.12059999999997 seconds
+02/26/2024 07:27:53 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 07:27:53 AM Epoch #52: Average Validation Loss: 0.2378 - Average Validation Pixel Acc: 0.8729 - Average Validation Mean IOU: 0.6100
+02/26/2024 07:27:53 AM 
+02/26/2024 07:27:53 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 07:29:03 AM Epoch 53 - iter 147/1488 - total loss 0.2068 - total mean iou 0.6079 - total pixel acc 0.8942 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3475 Seconds
+02/26/2024 07:30:13 AM Epoch 53 - iter 295/1488 - total loss 0.2038 - total mean iou 0.6083 - total pixel acc 0.8944 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3504 Seconds
+02/26/2024 07:31:23 AM Epoch 53 - iter 443/1488 - total loss 0.2163 - total mean iou 0.6077 - total pixel acc 0.8869 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3504 Seconds
+02/26/2024 07:32:34 AM Epoch 53 - iter 591/1488 - total loss 0.2114 - total mean iou 0.6036 - total pixel acc 0.8920 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3506 Seconds
+02/26/2024 07:33:44 AM Epoch 53 - iter 739/1488 - total loss 0.2114 - total mean iou 0.6006 - total pixel acc 0.8853 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3504 Seconds
+02/26/2024 07:34:54 AM Epoch 53 - iter 887/1488 - total loss 0.1997 - total mean iou 0.6057 - total pixel acc 0.8925 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3504 Seconds
+02/26/2024 07:36:04 AM Epoch 53 - iter 1035/1488 - total loss 0.2003 - total mean iou 0.6070 - total pixel acc 0.8963 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3502 Seconds
+02/26/2024 07:37:14 AM Epoch 53 - iter 1183/1488 - total loss 0.2029 - total mean iou 0.6030 - total pixel acc 0.8858 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3503 Seconds
+02/26/2024 07:38:25 AM Epoch 53 - iter 1331/1488 - total loss 0.1940 - total mean iou 0.6198 - total pixel acc 0.9003 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3504 Seconds
+02/26/2024 07:39:35 AM Epoch 53 - iter 1479/1488 - total loss 0.2000 - total mean iou 0.6088 - total pixel acc 0.8938 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3504 Seconds
+02/26/2024 07:39:38 AM Epoch #53: Average Loss 0.20487980321249974 - Epoch Training Time: 8.0 minute/s and 40.808200000000056 seconds - Total Training Time: 8.0 minute/s and 40.808200000000056 seconds
+02/26/2024 07:42:26 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 07:42:26 AM Epoch #53: Average Validation Loss: 0.2378 - Average Validation Pixel Acc: 0.8730 - Average Validation Mean IOU: 0.6102
+02/26/2024 07:42:26 AM 
+02/26/2024 07:42:26 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 07:43:35 AM Epoch 54 - iter 147/1488 - total loss 0.2071 - total mean iou 0.6085 - total pixel acc 0.8941 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3473 Seconds
+02/26/2024 07:44:45 AM Epoch 54 - iter 295/1488 - total loss 0.2041 - total mean iou 0.6078 - total pixel acc 0.8943 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3505 Seconds
+02/26/2024 07:45:55 AM Epoch 54 - iter 443/1488 - total loss 0.2160 - total mean iou 0.6064 - total pixel acc 0.8871 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3506 Seconds
+02/26/2024 07:47:05 AM Epoch 54 - iter 591/1488 - total loss 0.2105 - total mean iou 0.6044 - total pixel acc 0.8923 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3508 Seconds
+02/26/2024 07:48:15 AM Epoch 54 - iter 739/1488 - total loss 0.2120 - total mean iou 0.6013 - total pixel acc 0.8852 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3506 Seconds
+02/26/2024 07:49:25 AM Epoch 54 - iter 887/1488 - total loss 0.2006 - total mean iou 0.6060 - total pixel acc 0.8921 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3506 Seconds
+02/26/2024 07:50:35 AM Epoch 54 - iter 1035/1488 - total loss 0.1992 - total mean iou 0.6073 - total pixel acc 0.8965 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3505 Seconds
+02/26/2024 07:51:45 AM Epoch 54 - iter 1183/1488 - total loss 0.2033 - total mean iou 0.6042 - total pixel acc 0.8859 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3504 Seconds
+02/26/2024 07:52:55 AM Epoch 54 - iter 1331/1488 - total loss 0.1945 - total mean iou 0.6197 - total pixel acc 0.9001 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3505 Seconds
+02/26/2024 07:54:05 AM Epoch 54 - iter 1479/1488 - total loss 0.1990 - total mean iou 0.6088 - total pixel acc 0.8942 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3505 Seconds
+02/26/2024 07:54:08 AM Epoch #54: Average Loss 0.2048882733659959 - Epoch Training Time: 8.0 minute/s and 40.99680000000001 seconds - Total Training Time: 8.0 minute/s and 40.99680000000001 seconds
+02/26/2024 07:56:57 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 07:56:57 AM Epoch #54: Average Validation Loss: 0.2378 - Average Validation Pixel Acc: 0.8729 - Average Validation Mean IOU: 0.6099
+02/26/2024 07:56:57 AM 
+02/26/2024 07:56:57 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 07:58:06 AM Epoch 55 - iter 147/1488 - total loss 0.2061 - total mean iou 0.6090 - total pixel acc 0.8944 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.347 Seconds
+02/26/2024 07:59:16 AM Epoch 55 - iter 295/1488 - total loss 0.2048 - total mean iou 0.6073 - total pixel acc 0.8941 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3504 Seconds
+02/26/2024 08:00:26 AM Epoch 55 - iter 443/1488 - total loss 0.2166 - total mean iou 0.6064 - total pixel acc 0.8869 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3505 Seconds
+02/26/2024 08:01:36 AM Epoch 55 - iter 591/1488 - total loss 0.2106 - total mean iou 0.6047 - total pixel acc 0.8922 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3505 Seconds
+02/26/2024 08:02:46 AM Epoch 55 - iter 739/1488 - total loss 0.2116 - total mean iou 0.6007 - total pixel acc 0.8851 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3505 Seconds
+02/26/2024 08:03:56 AM Epoch 55 - iter 887/1488 - total loss 0.2011 - total mean iou 0.6053 - total pixel acc 0.8921 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3506 Seconds
+02/26/2024 08:05:06 AM Epoch 55 - iter 1035/1488 - total loss 0.1998 - total mean iou 0.6071 - total pixel acc 0.8963 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3507 Seconds
+02/26/2024 08:06:16 AM Epoch 55 - iter 1183/1488 - total loss 0.2039 - total mean iou 0.6026 - total pixel acc 0.8857 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3507 Seconds
+02/26/2024 08:07:26 AM Epoch 55 - iter 1331/1488 - total loss 0.1939 - total mean iou 0.6206 - total pixel acc 0.9003 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3505 Seconds
+02/26/2024 08:08:36 AM Epoch 55 - iter 1479/1488 - total loss 0.1987 - total mean iou 0.6091 - total pixel acc 0.8942 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3507 Seconds
+02/26/2024 08:08:40 AM Epoch #55: Average Loss 0.20494413505037945 - Epoch Training Time: 8.0 minute/s and 40.93539999999996 seconds - Total Training Time: 8.0 minute/s and 40.93539999999996 seconds
+02/26/2024 08:11:29 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 08:11:29 AM Epoch #55: Average Validation Loss: 0.2380 - Average Validation Pixel Acc: 0.8729 - Average Validation Mean IOU: 0.6100
+02/26/2024 08:11:29 AM 
+02/26/2024 08:11:29 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 08:12:38 AM Epoch 56 - iter 147/1488 - total loss 0.2069 - total mean iou 0.6076 - total pixel acc 0.8941 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3472 Seconds
+02/26/2024 08:13:49 AM Epoch 56 - iter 295/1488 - total loss 0.2043 - total mean iou 0.6079 - total pixel acc 0.8941 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3506 Seconds
+02/26/2024 08:14:59 AM Epoch 56 - iter 443/1488 - total loss 0.2149 - total mean iou 0.6081 - total pixel acc 0.8874 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3506 Seconds
+02/26/2024 08:16:09 AM Epoch 56 - iter 591/1488 - total loss 0.2107 - total mean iou 0.6043 - total pixel acc 0.8923 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3506 Seconds
+02/26/2024 08:17:19 AM Epoch 56 - iter 739/1488 - total loss 0.2113 - total mean iou 0.6010 - total pixel acc 0.8853 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3506 Seconds
+02/26/2024 08:18:29 AM Epoch 56 - iter 887/1488 - total loss 0.2010 - total mean iou 0.6061 - total pixel acc 0.8920 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3505 Seconds
+02/26/2024 08:19:39 AM Epoch 56 - iter 1035/1488 - total loss 0.1994 - total mean iou 0.6076 - total pixel acc 0.8965 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3506 Seconds
+02/26/2024 08:20:50 AM Epoch 56 - iter 1183/1488 - total loss 0.2042 - total mean iou 0.6031 - total pixel acc 0.8856 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3505 Seconds
+02/26/2024 08:22:00 AM Epoch 56 - iter 1331/1488 - total loss 0.1953 - total mean iou 0.6194 - total pixel acc 0.9000 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3505 Seconds
+02/26/2024 08:23:10 AM Epoch 56 - iter 1479/1488 - total loss 0.1998 - total mean iou 0.6086 - total pixel acc 0.8938 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3506 Seconds
+02/26/2024 08:23:14 AM Epoch #56: Average Loss 0.20506025273453005 - Epoch Training Time: 8.0 minute/s and 40.97500000000002 seconds - Total Training Time: 8.0 minute/s and 40.97500000000002 seconds
+02/26/2024 08:26:02 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 08:26:02 AM Epoch #56: Average Validation Loss: 0.2382 - Average Validation Pixel Acc: 0.8729 - Average Validation Mean IOU: 0.6099
+02/26/2024 08:26:02 AM 
+02/26/2024 08:26:02 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 08:27:12 AM Epoch 57 - iter 147/1488 - total loss 0.2061 - total mean iou 0.6090 - total pixel acc 0.8946 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3472 Seconds
+02/26/2024 08:28:22 AM Epoch 57 - iter 295/1488 - total loss 0.2039 - total mean iou 0.6077 - total pixel acc 0.8943 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3503 Seconds
+02/26/2024 08:29:32 AM Epoch 57 - iter 443/1488 - total loss 0.2150 - total mean iou 0.6077 - total pixel acc 0.8874 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3507 Seconds
+02/26/2024 08:30:42 AM Epoch 57 - iter 591/1488 - total loss 0.2109 - total mean iou 0.6045 - total pixel acc 0.8922 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3507 Seconds
+02/26/2024 08:31:52 AM Epoch 57 - iter 739/1488 - total loss 0.2111 - total mean iou 0.6003 - total pixel acc 0.8854 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3506 Seconds
+02/26/2024 08:33:03 AM Epoch 57 - iter 887/1488 - total loss 0.2004 - total mean iou 0.6058 - total pixel acc 0.8922 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3507 Seconds
+02/26/2024 08:34:13 AM Epoch 57 - iter 1035/1488 - total loss 0.2008 - total mean iou 0.6072 - total pixel acc 0.8961 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3505 Seconds
+02/26/2024 08:35:23 AM Epoch 57 - iter 1183/1488 - total loss 0.2033 - total mean iou 0.6037 - total pixel acc 0.8860 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3505 Seconds
+02/26/2024 08:36:33 AM Epoch 57 - iter 1331/1488 - total loss 0.1941 - total mean iou 0.6200 - total pixel acc 0.9003 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3505 Seconds
+02/26/2024 08:37:43 AM Epoch 57 - iter 1479/1488 - total loss 0.1995 - total mean iou 0.6091 - total pixel acc 0.8940 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3506 Seconds
+02/26/2024 08:37:47 AM Epoch #57: Average Loss 0.2047537968804439 - Epoch Training Time: 8.0 minute/s and 41.007799999999975 seconds - Total Training Time: 8.0 minute/s and 41.007799999999975 seconds
+02/26/2024 08:40:36 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 08:40:36 AM Epoch #57: Average Validation Loss: 0.2379 - Average Validation Pixel Acc: 0.8729 - Average Validation Mean IOU: 0.6099
+02/26/2024 08:40:36 AM 
+02/26/2024 08:40:36 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 08:41:46 AM Epoch 58 - iter 147/1488 - total loss 0.2066 - total mean iou 0.6090 - total pixel acc 0.8944 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3468 Seconds
+02/26/2024 08:42:56 AM Epoch 58 - iter 295/1488 - total loss 0.2038 - total mean iou 0.6073 - total pixel acc 0.8943 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3503 Seconds
+02/26/2024 08:44:06 AM Epoch 58 - iter 443/1488 - total loss 0.2155 - total mean iou 0.6077 - total pixel acc 0.8875 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3508 Seconds
+02/26/2024 08:45:16 AM Epoch 58 - iter 591/1488 - total loss 0.2103 - total mean iou 0.6045 - total pixel acc 0.8923 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.351 Seconds
+02/26/2024 08:46:27 AM Epoch 58 - iter 739/1488 - total loss 0.2120 - total mean iou 0.6004 - total pixel acc 0.8851 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3505 Seconds
+02/26/2024 08:47:37 AM Epoch 58 - iter 887/1488 - total loss 0.2005 - total mean iou 0.6059 - total pixel acc 0.8923 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3504 Seconds
+02/26/2024 08:48:47 AM Epoch 58 - iter 1035/1488 - total loss 0.1997 - total mean iou 0.6072 - total pixel acc 0.8964 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3505 Seconds
+02/26/2024 08:49:57 AM Epoch 58 - iter 1183/1488 - total loss 0.2038 - total mean iou 0.6040 - total pixel acc 0.8859 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3502 Seconds
+02/26/2024 08:51:08 AM Epoch 58 - iter 1331/1488 - total loss 0.1941 - total mean iou 0.6197 - total pixel acc 0.9002 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3504 Seconds
+02/26/2024 08:52:18 AM Epoch 58 - iter 1479/1488 - total loss 0.1988 - total mean iou 0.6093 - total pixel acc 0.8942 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3503 Seconds
+02/26/2024 08:52:22 AM Epoch #58: Average Loss 0.20476261911393012 - Epoch Training Time: 8.0 minute/s and 40.816799999999944 seconds - Total Training Time: 8.0 minute/s and 40.816799999999944 seconds
+02/26/2024 08:55:11 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 08:55:11 AM Epoch #58: Average Validation Loss: 0.2377 - Average Validation Pixel Acc: 0.8730 - Average Validation Mean IOU: 0.6101
+02/26/2024 08:55:11 AM 
+02/26/2024 08:55:11 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 08:56:21 AM Epoch 59 - iter 147/1488 - total loss 0.2066 - total mean iou 0.6082 - total pixel acc 0.8942 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3472 Seconds
+02/26/2024 08:57:31 AM Epoch 59 - iter 295/1488 - total loss 0.2050 - total mean iou 0.6077 - total pixel acc 0.8941 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3505 Seconds
+02/26/2024 08:58:41 AM Epoch 59 - iter 443/1488 - total loss 0.2166 - total mean iou 0.6073 - total pixel acc 0.8871 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3505 Seconds
+02/26/2024 08:59:51 AM Epoch 59 - iter 591/1488 - total loss 0.2103 - total mean iou 0.6049 - total pixel acc 0.8924 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3506 Seconds
+02/26/2024 09:01:01 AM Epoch 59 - iter 739/1488 - total loss 0.2110 - total mean iou 0.6013 - total pixel acc 0.8854 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3504 Seconds
+02/26/2024 09:02:11 AM Epoch 59 - iter 887/1488 - total loss 0.2014 - total mean iou 0.6049 - total pixel acc 0.8920 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3503 Seconds
+02/26/2024 09:03:22 AM Epoch 59 - iter 1035/1488 - total loss 0.1998 - total mean iou 0.6072 - total pixel acc 0.8964 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3504 Seconds
+02/26/2024 09:04:32 AM Epoch 59 - iter 1183/1488 - total loss 0.2042 - total mean iou 0.6033 - total pixel acc 0.8856 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3504 Seconds
+02/26/2024 09:05:42 AM Epoch 59 - iter 1331/1488 - total loss 0.1943 - total mean iou 0.6200 - total pixel acc 0.9003 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3504 Seconds
+02/26/2024 09:06:52 AM Epoch 59 - iter 1479/1488 - total loss 0.1993 - total mean iou 0.6086 - total pixel acc 0.8941 - UNet Decoder lr: 1.00e-08 - UNet Classifier lr: 1.00e-07 - secs/batch 0.3503 Seconds
+02/26/2024 09:06:56 AM Epoch #59: Average Loss 0.2050982717604887 - Epoch Training Time: 8.0 minute/s and 40.77750000000003 seconds - Total Training Time: 8.0 minute/s and 40.77750000000003 seconds
+02/26/2024 09:09:46 AM ----------------------------------------------------------------------------------------------------
+02/26/2024 09:09:46 AM Epoch #59: Average Validation Loss: 0.2380 - Average Validation Pixel Acc: 0.8729 - Average Validation Mean IOU: 0.6099
+02/26/2024 09:09:46 AM 

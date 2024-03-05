@@ -1,0 +1,195 @@
+02/25/2024 06:32:50 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:32:50 PM Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+02/25/2024 06:32:50 PM encoder_module.convblock_0.convblock.0.weight                          torch.Size([32, 3, 3, 3])      864                            1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_0.convblock.0.bias                            torch.Size([32])               32                             1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_0.convblock.1.weight                          torch.Size([32, 32, 3, 3])     9216                           1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_0.convblock.1.bias                            torch.Size([32])               32                             1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_0.convblock.2.weight                          torch.Size([32])               32                             1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_0.convblock.2.bias                            torch.Size([32])               32                             1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_1.convblock.0.weight                          torch.Size([64, 32, 3, 3])     18432                          1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_1.convblock.0.bias                            torch.Size([64])               64                             1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_1.convblock.1.weight                          torch.Size([64, 64, 3, 3])     36864                          1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_1.convblock.1.bias                            torch.Size([64])               64                             1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_1.convblock.2.weight                          torch.Size([64])               64                             1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_1.convblock.2.bias                            torch.Size([64])               64                             1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_2.convblock.0.weight                          torch.Size([128, 64, 3, 3])    73728                          1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_2.convblock.0.bias                            torch.Size([128])              128                            1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_2.convblock.1.weight                          torch.Size([128, 128, 3, 3])   147456                         1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_2.convblock.1.bias                            torch.Size([128])              128                            1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_2.convblock.2.weight                          torch.Size([128])              128                            1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_2.convblock.2.bias                            torch.Size([128])              128                            1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_3.convblock.0.weight                          torch.Size([256, 128, 3, 3])   294912                         1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_3.convblock.0.bias                            torch.Size([256])              256                            1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_3.convblock.1.weight                          torch.Size([256, 256, 3, 3])   589824                         1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_3.convblock.1.bias                            torch.Size([256])              256                            1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_3.convblock.2.weight                          torch.Size([256])              256                            1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_3.convblock.2.bias                            torch.Size([256])              256                            1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_4.convblock.0.weight                          torch.Size([512, 256, 3, 3])   1179648                        1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_4.convblock.0.bias                            torch.Size([512])              512                            1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_4.convblock.1.weight                          torch.Size([512, 512, 3, 3])   2359296                        1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_4.convblock.1.bias                            torch.Size([512])              512                            1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_4.convblock.2.weight                          torch.Size([512])              512                            1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_4.convblock.2.bias                            torch.Size([512])              512                            1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_5.convblock.0.weight                          torch.Size([1024, 512, 3, 3])  4718592                        1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_5.convblock.0.bias                            torch.Size([1024])             1024                           1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_5.convblock.1.weight                          torch.Size([1024, 1024, 3, 3]) 9437184                        1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_5.convblock.1.bias                            torch.Size([1024])             1024                           1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_5.convblock.2.weight                          torch.Size([1024])             1024                           1                             
+02/25/2024 06:32:50 PM encoder_module.convblock_5.convblock.2.bias                            torch.Size([1024])             1024                           1                             
+02/25/2024 06:32:50 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:32:50 PM Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+02/25/2024 06:32:50 PM decoder_module.deconvblock_0.transpose_layer.weight                    torch.Size([1024, 512, 2, 2])  2097152                        1                             
+02/25/2024 06:32:50 PM decoder_module.deconvblock_0.transpose_layer.bias                      torch.Size([512])              512                            1                             
+02/25/2024 06:32:50 PM decoder_module.deconvblock_0.convblock.convblock.0.weight              torch.Size([512, 1024, 3, 3])  4718592                        1                             
+02/25/2024 06:32:50 PM decoder_module.deconvblock_0.convblock.convblock.0.bias                torch.Size([512])              512                            1                             
+02/25/2024 06:32:50 PM decoder_module.deconvblock_0.convblock.convblock.1.weight              torch.Size([512, 512, 3, 3])   2359296                        1                             
+02/25/2024 06:32:50 PM decoder_module.deconvblock_0.convblock.convblock.1.bias                torch.Size([512])              512                            1                             
+02/25/2024 06:32:50 PM decoder_module.deconvblock_0.convblock.convblock.2.weight              torch.Size([512])              512                            1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_0.convblock.convblock.2.bias                torch.Size([512])              512                            1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_1.transpose_layer.weight                    torch.Size([512, 256, 2, 2])   524288                         1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_1.transpose_layer.bias                      torch.Size([256])              256                            1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_1.convblock.convblock.0.weight              torch.Size([256, 512, 3, 3])   1179648                        1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_1.convblock.convblock.0.bias                torch.Size([256])              256                            1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_1.convblock.convblock.1.weight              torch.Size([256, 256, 3, 3])   589824                         1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_1.convblock.convblock.1.bias                torch.Size([256])              256                            1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_1.convblock.convblock.2.weight              torch.Size([256])              256                            1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_1.convblock.convblock.2.bias                torch.Size([256])              256                            1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_2.transpose_layer.weight                    torch.Size([256, 128, 2, 2])   131072                         1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_2.transpose_layer.bias                      torch.Size([128])              128                            1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_2.convblock.convblock.0.weight              torch.Size([128, 256, 3, 3])   294912                         1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_2.convblock.convblock.0.bias                torch.Size([128])              128                            1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_2.convblock.convblock.1.weight              torch.Size([128, 128, 3, 3])   147456                         1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_2.convblock.convblock.1.bias                torch.Size([128])              128                            1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_2.convblock.convblock.2.weight              torch.Size([128])              128                            1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_2.convblock.convblock.2.bias                torch.Size([128])              128                            1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_3.transpose_layer.weight                    torch.Size([128, 64, 2, 2])    32768                          1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_3.transpose_layer.bias                      torch.Size([64])               64                             1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_3.convblock.convblock.0.weight              torch.Size([64, 128, 3, 3])    73728                          1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_3.convblock.convblock.0.bias                torch.Size([64])               64                             1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_3.convblock.convblock.1.weight              torch.Size([64, 64, 3, 3])     36864                          1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_3.convblock.convblock.1.bias                torch.Size([64])               64                             1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_3.convblock.convblock.2.weight              torch.Size([64])               64                             1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_3.convblock.convblock.2.bias                torch.Size([64])               64                             1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_4.transpose_layer.weight                    torch.Size([64, 32, 2, 2])     8192                           1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_4.transpose_layer.bias                      torch.Size([32])               32                             1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_4.convblock.convblock.0.weight              torch.Size([32, 64, 3, 3])     18432                          1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_4.convblock.convblock.0.bias                torch.Size([32])               32                             1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_4.convblock.convblock.1.weight              torch.Size([32, 32, 3, 3])     9216                           1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_4.convblock.convblock.1.bias                torch.Size([32])               32                             1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_4.convblock.convblock.2.weight              torch.Size([32])               32                             1                             
+02/25/2024 06:32:51 PM decoder_module.deconvblock_4.convblock.convblock.2.bias                torch.Size([32])               32                             1                             
+02/25/2024 06:32:51 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:32:51 PM Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_0.g_conv_layer.weight                  torch.Size([512, 1024, 1, 1])  524288                         1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_0.g_conv_layer.bias                    torch.Size([512])              512                            1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_0.x_conv_layer.weight                  torch.Size([512, 512, 3, 3])   2359296                        1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_0.x_conv_layer.bias                    torch.Size([512])              512                            1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_0.attention_layer.weight               torch.Size([1, 512, 1, 1])     512                            1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_0.attention_layer.bias                 torch.Size([1])                1                              1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_1.g_conv_layer.weight                  torch.Size([256, 512, 1, 1])   131072                         1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_1.g_conv_layer.bias                    torch.Size([256])              256                            1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_1.x_conv_layer.weight                  torch.Size([256, 256, 3, 3])   589824                         1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_1.x_conv_layer.bias                    torch.Size([256])              256                            1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_1.attention_layer.weight               torch.Size([1, 256, 1, 1])     256                            1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_1.attention_layer.bias                 torch.Size([1])                1                              1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_2.g_conv_layer.weight                  torch.Size([128, 256, 1, 1])   32768                          1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_2.g_conv_layer.bias                    torch.Size([128])              128                            1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_2.x_conv_layer.weight                  torch.Size([128, 128, 3, 3])   147456                         1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_2.x_conv_layer.bias                    torch.Size([128])              128                            1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_2.attention_layer.weight               torch.Size([1, 128, 1, 1])     128                            1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_2.attention_layer.bias                 torch.Size([1])                1                              1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_3.g_conv_layer.weight                  torch.Size([64, 128, 1, 1])    8192                           1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_3.g_conv_layer.bias                    torch.Size([64])               64                             1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_3.x_conv_layer.weight                  torch.Size([64, 64, 3, 3])     36864                          1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_3.x_conv_layer.bias                    torch.Size([64])               64                             1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_3.attention_layer.weight               torch.Size([1, 64, 1, 1])      64                             1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_3.attention_layer.bias                 torch.Size([1])                1                              1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_4.g_conv_layer.weight                  torch.Size([32, 64, 1, 1])     2048                           1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_4.g_conv_layer.bias                    torch.Size([32])               32                             1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_4.x_conv_layer.weight                  torch.Size([32, 32, 3, 3])     9216                           1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_4.x_conv_layer.bias                    torch.Size([32])               32                             1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_4.attention_layer.weight               torch.Size([1, 32, 1, 1])      32                             1                             
+02/25/2024 06:32:51 PM attention_gate_module.attn_gate_4.attention_layer.bias                 torch.Size([1])                1                              1                             
+02/25/2024 06:32:51 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:32:51 PM Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+02/25/2024 06:32:51 PM pre_classification_layer.weight                                        torch.Size([32, 32, 1, 1])     1024                           1                             
+02/25/2024 06:32:51 PM pre_classification_layer.bias                                          torch.Size([32])               32                             1                             
+02/25/2024 06:32:51 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:32:51 PM Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+02/25/2024 06:32:51 PM final_classification_layer.weight                                      torch.Size([8, 32, 1, 1])      256                            1                             
+02/25/2024 06:32:51 PM final_classification_layer.bias                                        torch.Size([8])                8                              1                             
+02/25/2024 06:32:51 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:32:51 PM Train Dataloader:
+02/25/2024 06:32:51 PM 
+02/25/2024 06:32:51 PM Train Annotations Directory: ../gtFine/train
+02/25/2024 06:32:51 PM 
+02/25/2024 06:32:51 PM Train Original Images Directory: ../leftImg8bit/train
+02/25/2024 06:32:51 PM 
+02/25/2024 06:32:51 PM Training Batch Size: 2
+02/25/2024 06:32:51 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:32:51 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:32:51 PM Val Dataloader:
+02/25/2024 06:32:51 PM 
+02/25/2024 06:32:51 PM Val Annotations Directory: ../gtFine/val
+02/25/2024 06:32:51 PM 
+02/25/2024 06:32:51 PM Val Original Images Directory: ../leftImg8bit/val
+02/25/2024 06:32:51 PM 
+02/25/2024 06:32:51 PM Validation Batch Size: 8
+02/25/2024 06:32:51 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:32:51 PM Test Dataloader:
+02/25/2024 06:32:51 PM 
+02/25/2024 06:32:51 PM Test Annotations Directory: ../gtFine/test
+02/25/2024 06:32:51 PM 
+02/25/2024 06:32:51 PM Test Original Images Directory: ../leftImg8bit/test
+02/25/2024 06:32:51 PM 
+02/25/2024 06:32:51 PM Testing Batch Size: 16
+02/25/2024 06:32:52 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:32:52 PM Optimizer: AdamW
+02/25/2024 06:32:52 PM 
+02/25/2024 06:32:52 PM model_name: UNet Decoder
+02/25/2024 06:32:52 PM lr                             0.001
+02/25/2024 06:32:52 PM betas                          (0.9, 0.999)
+02/25/2024 06:32:52 PM eps                            1e-08
+02/25/2024 06:32:52 PM weight_decay                   0.1
+02/25/2024 06:32:52 PM amsgrad                        True
+02/25/2024 06:32:52 PM foreach                        None
+02/25/2024 06:32:52 PM maximize                       False
+02/25/2024 06:32:52 PM capturable                     False
+02/25/2024 06:32:52 PM differentiable                 False
+02/25/2024 06:32:52 PM fused                          None
+02/25/2024 06:32:52 PM 
+02/25/2024 06:32:52 PM model_name: UNet Decoder
+02/25/2024 06:32:52 PM lr                             0.001
+02/25/2024 06:32:52 PM betas                          (0.9, 0.999)
+02/25/2024 06:32:52 PM eps                            1e-08
+02/25/2024 06:32:52 PM weight_decay                   0.1
+02/25/2024 06:32:52 PM amsgrad                        True
+02/25/2024 06:32:52 PM foreach                        None
+02/25/2024 06:32:52 PM maximize                       False
+02/25/2024 06:32:52 PM capturable                     False
+02/25/2024 06:32:52 PM differentiable                 False
+02/25/2024 06:32:52 PM fused                          None
+02/25/2024 06:32:52 PM 
+02/25/2024 06:32:52 PM model_name: UNet Classifier
+02/25/2024 06:32:52 PM lr                             0.01
+02/25/2024 06:32:52 PM betas                          (0.9, 0.999)
+02/25/2024 06:32:52 PM eps                            1e-08
+02/25/2024 06:32:52 PM weight_decay                   0.1
+02/25/2024 06:32:52 PM amsgrad                        True
+02/25/2024 06:32:52 PM foreach                        None
+02/25/2024 06:32:52 PM maximize                       False
+02/25/2024 06:32:52 PM capturable                     False
+02/25/2024 06:32:52 PM differentiable                 False
+02/25/2024 06:32:52 PM fused                          None
+02/25/2024 06:32:52 PM 
+02/25/2024 06:32:52 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:32:52 PM Device: cuda and Device Count: 1
+02/25/2024 06:32:52 PM 
+02/25/2024 06:32:52 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:32:52 PM Start Training: Max Epoch 60
+02/25/2024 06:32:52 PM 
+02/25/2024 06:32:52 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:35:37 PM ----------------------------------------------------------------------------------------------------
+02/25/2024 06:35:37 PM Epoch #0: Average Validation Loss: 2.1173 - Average Validation Pixel Acc: 0.0400 - Average Validation Mean IOU: 0.0105
+02/25/2024 06:35:37 PM 
+02/25/2024 06:35:37 PM ----------------------------------------------------------------------------------------------------
