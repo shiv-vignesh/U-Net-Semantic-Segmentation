@@ -39,6 +39,7 @@ loss function : `Cross Entropy`
 |----------|----------|----------|----------|----------|
 | Simple-U-Net | 2 | 87.04 | 60.17 | 26 |
 | Attention U-Net | 2 | 86.88 | 60.19 | 15 |
+| Resnet Attention U-Net | 2 | 86.88 | 64.50 | 14 |
 
 <div style="display: flex; justify-content: space-between;">
     <figure style="margin: 0; padding: 0;">
@@ -46,15 +47,22 @@ loss function : `Cross Entropy`
     <figcaption>Attention U-Net</figcaption>
     </figure>
     <figure style="margin: 0; padding: 0;">
-    <img src="predictions_visualizations/simple_u_net_frame.png" alt="simple-U-Net-Visual" width="150%">
+    <img src="predictions_visualizations/simple_u_net_frame.png" alt="simple-U-Net-Visual" width="100%">
     <figcaption>Simple U-Net</figcaption>
+    <figure style="margin: 0; padding: 0;">
+    <img src="predictions_visualizations/resnet_attn_frame.png" alt="Resnet-Attention-U-Net-Visual" width="100%">
+    <figcaption>Resnet-Attention-U-Net-Visual</figcaption>    
     </figure>
 </div>
 
 ### Results and Analysis
 
-- U-Net model benefits by incorporating attention module, this can be clearly witnessed as the attention-u-net model converges quicker than its counterpart. 
-- Observing the visualization, Attention Module helps improve the sharpness, precision and produces a well-defined shape of semantics. The predictions are more precise in the boundary regions of semantics. 
-- Both the model's perforrmance saturate at `mean_iou ~ 61%`. In order to maximize the performance 
-    - must increase batch_size. Currently, trying to procure a bigger GPU machine. 
-    - Including residual connections within the encoder modules. This facilitates gradient propogation to the earlier layers. Solves the problem of vanishing gradients. 
+|  | Resnet-Attention-UNet | Attention-UNet | Simple UNet | 
+|----------|----------|----------|----------
+| Convergence| Fastest Convergence and attains highest IOU, saturate at `mean_iou ~ 65%`.| Converges faster than Simple U-Net, saturate at `mean_iou ~ 61%`.| Slowest Convergence, saturate at `mean_iou ~ 61%`. | 
+| Observation through Visualization| Residual Connection refine the shape definations. The shape of vehicles are more sharper than Attention U-Net. Hallucinations of certain shapes is observed. (Top-Left) | Attention Module helps improve the sharpness, precision and produces a well-defined shape of semantics. The predictions are more precise in the boundary regions of semantics. | Model lacks in defination and sharpness around boundaries. In some cases the shape of the prediction is not even remotely retained.| 
+
+##### Improvements to Work-On
+- Procure larger GPU to increase `batch_size`. 
+- Apply custom loss function to improve confidence in class predictions `accuracy` and `IOU`.
+- Implement custom weighted loss function to combine `cross_entropy` and `iou_loss`. 
