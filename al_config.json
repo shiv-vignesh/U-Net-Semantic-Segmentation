@@ -1,0 +1,85 @@
+{
+    "model_kwargs":{
+        "model_arch":"simple_u_net"
+
+    },
+    "dataset_kwargs": {
+        "train_annotation_dir":"../gtFine/train",
+        "train_original_images_dir":"../leftImg8bit/train",
+        "val_annotation_dir":"../gtFine/val",
+        "val_original_images_dir":"../leftImg8bit/val",
+        "test_annotation_dir":"../gtFine/test",
+        "test_original_images_dir":"../leftImg8bit/test",
+        "state_batch_size":1,
+        "reward_batch_size":8,
+        "train_batch_size":1,
+        "val_batch_size":8,
+        "test_batch_size":16,
+        "k_regions":16,
+        "image_resize":[512, 1024], 
+        "interpolation":"bilinear_interpolation"
+    },
+    "trainer_kwargs": {
+        "num_episodes": 60, 
+        "policy_net_batch_size":16,
+        "monitor_train": true,
+        "monitor_val": true,
+        "monitor_test": false,
+        "device": "cuda",
+        "gradient_clipping": 1.0,
+        "output_dir": "active_learning_dev",
+        "load_from_checkpoint": true,
+        "is_training": true,
+        "use_cache": false,
+        "first_val_epoch": 0,
+        "metric_eval_mode": "strict",
+        "metric_average_mode": "macro",
+        "mxp_training":false,
+        "loss_combination_strategy":"dynamic_weighted", 
+        "val_segmentation_plot_dir":"predictions_visualizations/residual_attention_u_net",
+        "minority_classes":[3, 6]       
+    },
+
+    "optimizer_kwargs": {
+        "u_net_kwargs":{
+            "_description": "default_lr is for any layer other than lm",
+            "default_lr": 0.00005,
+            "type": "AdamW",
+            "kwargs": {
+                "weight_decay": 0.1,
+                "amsgrad": true
+            },
+            "encoder_lr": 1e-3,
+            "decoder_lr": 1e-3,
+            "classification_lr":0.01
+        },
+        "dqn_kwargs":{
+            "_description": "default_lr is for any layer other than lm",
+            "default_lr": 0.00005,
+            "type": "RMSprop",
+            "kwargs": {
+                "weight_decay": 0.001,
+                "amsgrad": true,
+                "momentum":0.9
+            },
+            "lr_dqn": 1e-3
+        }
+    },
+
+    "lr_scheduler_kwargs": {
+        "_description": "linear lr scheduler with warmup and linear decay",
+        "increase_batch_size_on_plateau": false,
+        "num_warmup_steps": -1,
+        "num_training_steps": -1,
+        "max_warmup_steps": 10000
+        }, 
+    "callbacks_kwargs": {
+        "_description": "early stopping",
+        "kwargs": {
+            "save_final_model": false,
+            "patience": 3,
+            "mode": "max",
+            "threshold": 0.005
+        }
+    }            
+}
