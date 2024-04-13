@@ -92,6 +92,25 @@ def calculate_iou(prediction_tensor:torch.tensor, target_tensor:torch.tensor, nu
 
     return iou_per_class, miou        
 
+def calculate_iou_for_classes(prediction_tensor: torch.Tensor, target_tensor: torch.Tensor, class_indices: list):
+
+    prediction_tensor = torch.argmax(prediction_tensor, dim=1)  # Assuming dim 0 is the class probability
+    target_tensor = target_tensor.long()
+    
+    ious = []
+    
+    for class_idx in class_indices:
+        intersection = torch.sum((prediction_tensor == class_idx) & (target_tensor == class_idx))
+        union = torch.sum((prediction_tensor == class_idx) | (target_tensor == class_idx))
+        # Avoid division by zero
+        iou = intersection.float() / union.float() if union.float() != 0 else torch.tensor(0.0)
+        ious.append(iou)
+    
+    iou_per_class = torch.tensor(ious)
+    mean_iou = torch.mean(iou_per_class) if len(ious) > 0 else torch.tensor(0.0)
+    
+    return iou_per_class, mean_iou
+
 def calculate_dice_loss(prediction_tensor:torch.tensor, target_tensor:torch.tensor, num_classes:int, smooth=1.0):
 
     prediction_tensor = F.sigmoid(prediction_tensor)
@@ -106,7 +125,7 @@ def calculate_dice_loss(prediction_tensor:torch.tensor, target_tensor:torch.tens
 
     return dice_loss
 
-def calculate_pixel_level_accuracy(prediction_tensor:torch.tensor, target_tensor:torch.tensor):
+def calculate_pixel_level_accuracy(prediction_tensor:torch.tensor, target_tensor:torch.tensor, num_classes:int):
 
     prediction_tensor = torch.argmax(prediction_tensor, dim=1)  # Convert probabilities to class indices
     target_tensor = target_tensor.long()    
@@ -114,9 +133,37 @@ def calculate_pixel_level_accuracy(prediction_tensor:torch.tensor, target_tensor
     # Calculate pixel-level accuracy
     correct_pixels = torch.sum(prediction_tensor == target_tensor)
     total_pixels = torch.numel(target_tensor)
-    pixel_accuracy = correct_pixels.float() / total_pixels
+    total_pixel_accuracy = correct_pixels.float() / total_pixels
 
-    return pixel_accuracy    
+    class_accuracies = []
+    for class_idx in range(num_classes):
+        correct_pixels = torch.sum((prediction_tensor == class_idx) & (target_tensor == class_idx))
+        incorrect_pixels = torch.sum((prediction_tensor != class_idx) & (target_tensor == class_idx))
+
+        acc_class = correct_pixels/(correct_pixels + incorrect_pixels)
+        class_accuracies.append(acc_class)
+
+    return torch.tensor(class_accuracies), total_pixel_accuracy
+
+def calculate_accuracy_for_classes(prediction_tensor: torch.Tensor, target_tensor: torch.Tensor, class_indices: list):
+
+    prediction_tensor = torch.argmax(prediction_tensor, dim=1)
+    target_tensor = target_tensor.long()
+    
+    accuracies = []
+    
+    for class_idx in class_indices:
+        correct_pixels = torch.sum((prediction_tensor == class_idx) & (target_tensor == class_idx))
+        total_class_pixels = torch.sum(target_tensor == class_idx)
+        # Avoid division by zero
+        accuracy = correct_pixels.float() / total_class_pixels.float() if total_class_pixels.float() != 0 else torch.tensor(0.0)
+        accuracies.append(accuracy)
+    
+    accuracy_per_class = torch.tensor(accuracies)
+    mean_accuracy = torch.mean(accuracy_per_class) if len(accuracies) > 0 else torch.tensor(0.0)
+    
+    return accuracy_per_class, mean_accuracy
+
 
 def convert_time_to_readable_format(seconds):
     seconds = seconds % (24 * 3600)
