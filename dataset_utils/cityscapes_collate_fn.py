@@ -26,7 +26,7 @@ class BicubicInterpolation(object):
 class CityScapesCollateFn(object):
 
     def __init__(self, 
-                image_resize=(512, 512),
+                image_resize=(512, 1024),
                 interpolation_strategy="bilinear_interpolation",
                 split="train", 
                 crop=True,

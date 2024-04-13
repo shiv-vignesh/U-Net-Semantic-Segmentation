@@ -46,8 +46,6 @@ class CityScapesDataset(Dataset):
         for city in cities:
             image_files = os.listdir(f'{self.original_images_dir}/{city}')
             image_file_paths.extend([(city, image_file) for image_file in image_files])
-            # image_ids = ['_'.join(image_file.split('_')[:-1]) for image_file in image_files]
-            # gtfine_files = [f'{image_id}_gtFine_labelIds.png' for image_id in image_ids]
 
         random.shuffle(image_file_paths)
 
