@@ -144,6 +144,8 @@ class SimpleUNetTrainer:
         self.logger.log_message(f'Device: {self.model.device} and Device Count: {self.device_count}')
         self.logger.log_new_line()
 
+        self._init_callbacks(callbacks_kwargs)
+
     def _init_semantic_segmentation_dataset(self, dataset_kwargs:dict):
         def init_dataloader_helper(annotations_dir:str, original_images_dir:str, batch_size:int, dataset_type:str, image_resize:int, interpolation_strategy:str):
 
@@ -215,6 +217,10 @@ class SimpleUNetTrainer:
             "params":self.model.final_classification_layer.parameters(), "lr":optimizer_kwargs["classification_lr"], "model_name":"UNet Classifier"
         })
 
+        param_dict.append({
+            "params":self.model.pre_classification_layer.parameters(), "lr":optimizer_kwargs["classification_lr"], "model_name":"UNet Classifier"
+        })
+
         self.optimizer = getattr(
             torch.optim, optimizer_kwargs["type"]
         )(param_dict, **optimizer_kwargs["kwargs"])
@@ -253,6 +259,10 @@ class SimpleUNetTrainer:
             exit(1)
 
     def train_one_epoch(self):
+
+        # self.model = torch.nn.DataParallel(self.model, device_ids=[6, 7])
+        # self.device = torch.device("cuda:" + str(6) if torch.cuda.is_available() else "cpu")
+        # self.model.to(self.device)
 
         self.model.train()
         total_loss = 0.0 
@@ -383,6 +393,12 @@ class SimpleUNetTrainer:
         avg_valid_loss =  total_valid_loss/self.total_validation_batch
         avg_valid_pixel_acc = total_pixel_acc/self.total_validation_batch
         avg_valid_mean_iou = total_mean_iou/self.total_validation_batch
+
+        if avg_valid_mean_iou > self.callbacks.best_score:
+            self.callbacks.best_score = avg_valid_mean_iou
+            self.callbacks.save_checkpoint(self.model, self.cur_epoch, self.test_dataloader.collate_fn.category_id_2_color)
+            self.logger.log_message(f'Saving Model Checkpoint at {self.cur_epoch}')
+            self.logger.log_new_line()
 
         self.logger.log_line()
         self.logger.log_message(
