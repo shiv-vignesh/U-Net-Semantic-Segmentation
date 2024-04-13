@@ -11,6 +11,34 @@ class Label:
 
     def __str__(self):
         return f'{self.label_name} - {self.id} - {self.category_id} - {self.category_name} - {self.color}'
+    
+class DatasetParams:
+
+    num_classes = 19
+    original_image_resolution = (1024, 2048)
+    resized_image_resolution = (512, 1024)
+
+    crop_size = (64, 64)
+
+    num_labeled_images = 360
+    num_DS_images = 10
+    num_DT_images = 150
+    num_DR_images = 200
+    num_DV_images = 2615   
+
+    BUDGET = 4800
+    K = 8
+
+class RLParams:
+
+    GAMMA = 0.99
+    EPS_START = 0.9
+    EPS_END = 0.05
+    EPS_DECAY = 1000
+    TAU = 0.005
+    LR = 1e-4    
+
+    EXP_REPLAY_CAPACITY = 1000
 
 TRAIN_CITIES = ['monchengladbach', 'krefeld', 'cologne', 'jena', 'bochum', 'hamburg', 'dusseldorf', 'ulm', 'bremen', 'stuttgart', 'strasbourg', 'weimar', 'erfurt', 'darmstadt', 'zurich', 'tubingen', 'aachen', 'hanover']
 TEST_CITIES = ['bonn', 'munich', 'bielefeld', 'berlin', 'leverkusen', 'mainz']
