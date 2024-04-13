@@ -31,7 +31,7 @@ class Callbacks:
         elif self.mode == "min":
             return (self.best_score-score) > self.threshold
 
-    def save_checkpoint(self, model, epoch, answer_spaces):
+    def save_checkpoint(self, model, epoch, category_id_2_color):
         '''
         save new best model
         '''
@@ -42,7 +42,7 @@ class Callbacks:
             json.dump({
                 "epoch":epoch, 
                 "best_score":self.best_score,
-                "answer_spaces":answer_spaces
+                "category_id_2_color":category_id_2_color
             }, f)
 
     def exit_training(self, model):
